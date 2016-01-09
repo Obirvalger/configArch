@@ -1,0 +1,7 @@
+[build-menu]
+FT_00_LB=_Скомпилировать
+FT_00_CM=ghc --make "%f"
+FT_00_WD=
+FT_01_LB=_Собрать
+FT_01_CM=ghc --make "%f"
+FT_01_WD=
