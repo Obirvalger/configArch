@@ -2,7 +2,7 @@
 #guake &
 xbacklight = 30
 xset s off -dpms
-compton -zfc -D5 -e 0.9 -m 0.8 --shadow-blue 0.1 &
+compton -zfc -D5 -e 0.9 -m 0.85 --shadow-blue 0.1 &
 feh --bg-scale ~/.config/.background 
 conky -dc .config/conkyrc
 sleep 0.3

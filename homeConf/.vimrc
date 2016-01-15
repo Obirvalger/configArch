@@ -1,6 +1,8 @@
 set number
 set tabstop=4
+"set clipboard=unnamedplus
 syntax on
+filetype plugin on
 ab #i #include
 "echo ">^.^<"
 set autowrite	
@@ -55,6 +57,7 @@ inoremap <c-e> <esc>$a
 inoremap <c-a> <esc>^i
 nnoremap <c-e> $a
 nnoremap <c-a> ^i
+
 "nnoremap <cr> <c-e>
 "inoremap" jk <esc>
 "inoremap" <esc> <nop>

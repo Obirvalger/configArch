@@ -1,0 +1,1715 @@
+{
+   "checksum": "55170be607c2e0be7e1be09323fb464c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13096751729000000",
+            "id": "6",
+            "name": "Начальная страница",
+            "type": "url",
+            "url": "https://www.mozilla.org/ru/firefox/central/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "7",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "8",
+            "name": "YouTube",
+            "type": "url",
+            "url": "http://www.youtube.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "9",
+            "name": "Google",
+            "type": "url",
+            "url": "http://www.google.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "10",
+            "name": "compizomania",
+            "type": "url",
+            "url": "http://compizomania.blogspot.com.es/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "11",
+            "name": "Яндекс",
+            "type": "url",
+            "url": "http://www.yandex.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "12",
+            "name": "Кафедра математической кибернетики",
+            "type": "url",
+            "url": "http://mk.cs.msu.ru/index.php/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "13",
+            "name": "МатКиб Диск",
+            "type": "url",
+            "url": "https://drive.google.com/folderview?id=0BwyJSAkhkGYHZlNkX21TOEY4NDA&usp=sharing"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "14",
+            "name": "Dropbox - Учёба - Simplify your life",
+            "type": "url",
+            "url": "https://www.dropbox.com/sh/c2mkehl9yym8yqw/ZWSdejCqTm#/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "15",
+            "name": "Padabum - cкачать книги бесплатно",
+            "type": "url",
+            "url": "http://padabum.com/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "16",
+            "name": "MEGA",
+            "type": "url",
+            "url": "https://mega.co.nz/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "17",
+            "name": "Михаилъ Гордеевъ",
+            "type": "url",
+            "url": "http://vkontakte.ru/mijgan"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "18",
+            "name": "Hexlet | Свободный университет",
+            "type": "url",
+            "url": "https://hexlet.org/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "19",
+            "name": "Droider - всё об Android. Программы Android | Новости Android | Игры для Android | Google Android приложения",
+            "type": "url",
+            "url": "http://droider.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "20",
+            "name": "ВМК МГУ",
+            "type": "url",
+            "url": "http://cs.msu.su/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "21",
+            "name": "reDroid.ru — Свежий взгляд на OS Android",
+            "type": "url",
+            "url": "http://redroid.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "22",
+            "name": "TLinux | Интересно о Linux и СПО",
+            "type": "url",
+            "url": "http://tlinux.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "23",
+            "name": "Записки дебианщика",
+            "type": "url",
+            "url": "http://mydebianblog.blogspot.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "24",
+            "name": "Игры на андроид",
+            "type": "url",
+            "url": "http://news4droid.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "25",
+            "name": "Index of /docs/courses/osstud/man",
+            "type": "url",
+            "url": "http://cs.mipt.ru/docs/courses/osstud/man/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "26",
+            "name": "Практикум 2 курса | cmc@msu",
+            "type": "url",
+            "url": "http://cmcmsu.no-ip.info/2course/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "27",
+            "name": "Практикум 1 курса | cmc@msu",
+            "type": "url",
+            "url": "http://cmcmsu.no-ip.info/1course/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "28",
+            "name": "YouHTC. Всё для телефонов HTC Touch",
+            "type": "url",
+            "url": "http://www.youhtc.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "29",
+            "name": "ComputerBild.RU | Тема дня",
+            "type": "url",
+            "url": "http://www.computerbild.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "30",
+            "name": "4PDA",
+            "type": "url",
+            "url": "http://4pda.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "31",
+            "name": "Mobile-review.com Все о мобильной технике и технологиях",
+            "type": "url",
+            "url": "http://www.mobile-review.com/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "32",
+            "name": "Почта",
+            "type": "url",
+            "url": "http://mail.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "33",
+            "name": "Карты",
+            "type": "url",
+            "url": "http://maps.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "34",
+            "name": "Contents",
+            "type": "url",
+            "url": "http://skif.bas-net.by/bsuir/ipcbook/node1.html"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "35",
+            "name": "Словари",
+            "type": "url",
+            "url": "http://slovari.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "36",
+            "name": "Лекции ЧМ",
+            "type": "url",
+            "url": "http://vm.cs.msu.su/lec/nmlec/lecnm.htm"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "37",
+            "name": "Amdm",
+            "type": "url",
+            "url": "http://amdm.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "38",
+            "name": "Index of /docs/courses/osstud",
+            "type": "url",
+            "url": "http://cs.mipt.ru/docs/courses/osstud/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "39",
+            "name": "Видео",
+            "type": "url",
+            "url": "http://video.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "40",
+            "name": "Музыка",
+            "type": "url",
+            "url": "http://music.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "41",
+            "name": "Практикум 1 курса | cmc@msu",
+            "type": "url",
+            "url": "http://cmcmsu.no-ip.info/1course/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "42",
+            "name": "Хабрахабр",
+            "type": "url",
+            "url": "http://habrahabr.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "43",
+            "name": "ВМК МГУ",
+            "type": "url",
+            "url": "http://cs.msu.su/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "44",
+            "name": "NOMOBILE.RU - первый глянцевый сайт о технике",
+            "type": "url",
+            "url": "http://www.nomobile.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "45",
+            "name": "ComputerBild.RU | Тема дня",
+            "type": "url",
+            "url": "http://www.computerbild.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "46",
+            "name": "4PDA",
+            "type": "url",
+            "url": "http://4pda.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "47",
+            "name": "Mobile-review.com Все о мобильной технике и технологиях",
+            "type": "url",
+            "url": "http://www.mobile-review.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "48",
+            "name": "Михаилъ Гордеевъ",
+            "type": "url",
+            "url": "http://vkontakte.ru/mijgan"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "49",
+            "name": "НАШЕ РАДИО",
+            "type": "url",
+            "url": "http://www.nashe.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "50",
+            "name": "iGoogle",
+            "type": "url",
+            "url": "http://www.google.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "51",
+            "name": "Яндекс",
+            "type": "url",
+            "url": "http://www.yandex.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "52",
+            "name": "Маркет",
+            "type": "url",
+            "url": "http://market.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "53",
+            "name": "Новости",
+            "type": "url",
+            "url": "http://news.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "54",
+            "name": "Словари",
+            "type": "url",
+            "url": "http://slovari.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "55",
+            "name": "Видео",
+            "type": "url",
+            "url": "http://video.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "56",
+            "name": "Диск",
+            "type": "url",
+            "url": "http://disk.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "57",
+            "name": "Blog",
+            "type": "url",
+            "url": "http://blog.linuxmint.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "58",
+            "name": "Bash-скрипты",
+            "type": "url",
+            "url": "http://www.opennet.ru/docs/RUS/bash_scripting_guide/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "59",
+            "name": "Подсветка клавиатуры и яркость",
+            "type": "url",
+            "url": "http://forum.ubuntu.ru/index.php?topic=198716.0"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "60",
+            "name": "Linux Mint",
+            "type": "url",
+            "url": "http://linuxmint.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "61",
+            "name": "Community",
+            "type": "url",
+            "url": "http://community.linuxmint.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "62",
+            "name": "Forums",
+            "type": "url",
+            "url": "http://forums.linuxmint.com/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "63",
+            "name": "Физика",
+            "type": "url",
+            "url": "http://www.physics.ru/courses/op25part1/design/index.htm"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "64",
+            "name": "Часто встречающиеся ошибки стадии компиляции | C++ для людей",
+            "type": "url",
+            "url": "http://cppstudy.wordpress.com/2008/12/29/frequent-compile-time-errors/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "65",
+            "name": "Фильмы онлайн смотреть бесплатно фильмы онлайн в хорошем качестве, онлайн фильмы смотреть бесплатно, смотреть кино онлайн.",
+            "type": "url",
+            "url": "http://zerx.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "66",
+            "name": "Сборка программ",
+            "type": "url",
+            "url": "http://help.ubuntu.ru/wiki/programs_installation"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "67",
+            "name": "Мотоциклы кроссовые, эндуро, питбайк купить, кроссовый мотоцикл купить, мотоцикл",
+            "type": "url",
+            "url": "http://xn--e1aogakgbdy.xn--p1ai/index.php/cPath/38"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "68",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "69",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "70",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "71",
+            "name": "Git - Ветвление в Git",
+            "type": "url",
+            "url": "http://git-scm.com/book/ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "72",
+            "name": "Радио",
+            "type": "url",
+            "url": "http://nmgames.kz/topic/2-staroe-novoe-radio-snova-onlain/page-3"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "73",
+            "name": "Шрифт в консоли",
+            "type": "url",
+            "url": "http://www.kwlsoft.ru/font-linux"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "74",
+            "name": "Debian.org",
+            "type": "url",
+            "url": "http://www.debian.org/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "75",
+            "name": "Latest News",
+            "type": "url",
+            "url": "http://www.debian.org/News/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "76",
+            "name": "Help",
+            "type": "url",
+            "url": "http://www.debian.org/support"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "77",
+            "name": "OpenGL настройка",
+            "type": "url",
+            "url": "http://habrahabr.ru/post/177885/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "78",
+            "name": "2010/8/R - KodomoWiki",
+            "type": "url",
+            "url": "https://kodomo.fbb.msu.ru/wiki/2010/8/R"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "79",
+            "name": "IT eBooks - Free Download - Big Library",
+            "type": "url",
+            "url": "http://it-ebooks.info/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "80",
+            "name": "Tutorials for COBOL, XSD, XPath, Redis, XSLT, Java XML, VBA, JFreeChart, Lucene, Selenium, DTD, Powerpoint, Tcl/Tk, XML, Software Engineering and many more latest technologies",
+            "type": "url",
+            "url": "http://www.tutorialspoint.com/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "81",
+            "name": "Хабрахабр",
+            "type": "url",
+            "url": "http://habrahabr.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "82",
+            "name": "НАШЕ РАДИО",
+            "type": "url",
+            "url": "http://www.nashe.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "83",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "84",
+            "name": "Маркет",
+            "type": "url",
+            "url": "http://market.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "85",
+            "name": "Новости",
+            "type": "url",
+            "url": "http://news.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "86",
+            "name": "Диск",
+            "type": "url",
+            "url": "http://disk.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "87",
+            "name": "Amdm",
+            "type": "url",
+            "url": "http://amdm.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "88",
+            "name": "reDroid.ru — Свежий взгляд на OS Android",
+            "type": "url",
+            "url": "http://redroid.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "89",
+            "name": "Droider - всё об Android. Программы Android | Новости Android | Игры для Android | Google Android приложения",
+            "type": "url",
+            "url": "http://droider.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "90",
+            "name": "YouHTC. Всё для телефонов HTC Touch",
+            "type": "url",
+            "url": "http://www.youhtc.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "91",
+            "name": "Почта",
+            "type": "url",
+            "url": "http://mail.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "92",
+            "name": "Карты",
+            "type": "url",
+            "url": "http://maps.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "93",
+            "name": "Музыка",
+            "type": "url",
+            "url": "http://music.yandex.ru/?win=28&clid=187997"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "94",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751729000000",
+            "id": "95",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "96",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "97",
+            "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+            "type": "url",
+            "url": "http://www.mobi.ru/"
+         }, {
+            "date_added": "13096751728000000",
+            "id": "98",
+            "name": "NOMOBILE.RU - первый глянцевый сайт о технике",
+            "type": "url",
+            "url": "http://www.nomobile.ru/"
+         }, {
+            "date_added": "13096751691000000",
+            "id": "99",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13096751729000000",
+                  "id": "102",
+                  "name": "Ubuntu",
+                  "type": "url",
+                  "url": "http://www.ubuntu.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "103",
+                  "name": "Ubuntu Wiki (community-edited website)",
+                  "type": "url",
+                  "url": "http://wiki.ubuntu.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "104",
+                  "name": "Make a Support Request to the Ubuntu Community",
+                  "type": "url",
+                  "url": "https://answers.launchpad.net/ubuntu/+addquestion"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "105",
+                  "name": "Debian (Ubuntu is based on Debian)",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "106",
+                  "name": "Ubuntu One - The personal cloud that brings your digital life together",
+                  "type": "url",
+                  "url": "https://one.ubuntu.com/"
+               } ],
+               "date_added": "13097103936667402",
+               "date_modified": "0",
+               "id": "101",
+               "name": "Ubuntu and Free Software links",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096751691000000",
+                  "id": "108",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/help/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "109",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "110",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "111",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "112",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/help/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "113",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "114",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/community/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "115",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/about/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "116",
+                  "name": "Справка и руководства",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/firefox/help/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "117",
+                  "name": "Настройка Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/firefox/customize/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "118",
+                  "name": "Присоединяйтесь к сообществу",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/contribute/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "119",
+                  "name": "О нас",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/about/"
+               } ],
+               "date_added": "13097103936667734",
+               "date_modified": "0",
+               "id": "107",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096751728000000",
+                  "id": "121",
+                  "name": "Диалоги",
+                  "type": "url",
+                  "url": "http://vk.com/im"
+               } ],
+               "date_added": "13097103936668461",
+               "date_modified": "0",
+               "id": "120",
+               "name": "X-notifier",
+               "type": "folder"
+            }, {
+               "date_added": "13096751729000000",
+               "id": "122",
+               "name": "Сергей Пронин",
+               "type": "url",
+               "url": "http://vk.com/sergobadgo"
+            }, {
+               "date_added": "13096751729000000",
+               "id": "123",
+               "name": "[SOLVED] How do I log out via terminal?",
+               "type": "url",
+               "url": "http://www.linuxquestions.org/questions/ubuntu-63/how-do-i-log-out-via-terminal-928183/"
+            }, {
+               "children": [ {
+                  "date_added": "13096751728000000",
+                  "id": "125",
+                  "name": "GitHub",
+                  "type": "url",
+                  "url": "https://github.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "126",
+                  "name": "Head First jQuery - Free Download eBook - pdf",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/book/345/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "127",
+                  "name": "Михаил Гордеев",
+                  "type": "url",
+                  "url": "https://vk.com/mijgan"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "128",
+                  "name": "Operator-Pending Mappings / Learn Vimscript the Hard Way",
+                  "type": "url",
+                  "url": "http://learnvimscriptthehardway.stevelosh.com/chapters/15.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "129",
+                  "name": "The Perl Programming Language - www.perl.org",
+                  "type": "url",
+                  "url": "https://www.perl.org/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "130",
+                  "name": "Язык программирования PERL",
+                  "type": "url",
+                  "url": "http://perl.find-info.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "131",
+                  "name": "1001 Free Fonts - Download 14494 Free Fonts",
+                  "type": "url",
+                  "url": "http://www.1001freefonts.com/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "132",
+                  "name": "Detexify LaTeX handwritten symbol recognition",
+                  "type": "url",
+                  "url": "http://detexify.kirelabs.org/classify.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "133",
+                  "name": "нейросети - Dropbox",
+                  "type": "url",
+                  "url": "https://www.dropbox.com/sh/5dwan0dcjgsw5en/AAACs0ASsq7TJZGqWjtgzWQNa?dl=0"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "134",
+                  "name": "Extensions Index · ipython/ipython Wiki",
+                  "type": "url",
+                  "url": "https://github.com/ipython/ipython/wiki/Extensions-Index"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "135",
+                  "name": "Основы функционального программирования — Викиучебник",
+                  "type": "url",
+                  "url": "http://ru.wikibooks.org/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "136",
+                  "name": "Журнал «Практика функционального программирования»",
+                  "type": "url",
+                  "url": "http://fprog.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "137",
+                  "name": "IT eBooks - Free Download - Big Library",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "138",
+                  "name": "Tutorials - HaskellWiki",
+                  "type": "url",
+                  "url": "https://www.haskell.org/haskellwiki/Tutorials"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "139",
+                  "name": "Материалы для лекций в МГУ (ВМК, 2014-2015) по \"технологиям SAS\" | SAS",
+                  "type": "url",
+                  "url": "http://www.sas.com/ru_ru/academic/mgu_sas.html#--------1"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "140",
+                  "name": "Зарплата в Сетелем - Google Таблицы",
+                  "type": "url",
+                  "url": "https://docs.google.com/spreadsheets/d/1jo5MKHCNzM_CKpsdgSdJfT9SZ-U2zl0frqu6Rm96Mno/edit#gid=2088285147"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "141",
+                  "name": "Типичный программист – Оптимизация в GCC",
+                  "type": "url",
+                  "url": "http://tproger.ru/translations/will-it-optimize-gcc/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "142",
+                  "name": "Курс: Биофизика: от неживого к живому, от принципов к механизмам",
+                  "type": "url",
+                  "url": "http://distant.msu.ru/course/view.php?id=403"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "143",
+                  "name": "Installing GHC",
+                  "type": "url",
+                  "url": "http://users.jyu.fi/~sapekiis/install-ghc/index.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "144",
+                  "name": "Настройка рабочего окружения с openbox",
+                  "type": "url",
+                  "url": "http://www.unix-lab.org/posts/openbox/"
+               } ],
+               "date_added": "13097103936668667",
+               "date_modified": "0",
+               "id": "124",
+               "name": "Неподшитые закладки",
+               "type": "folder"
+            } ],
+            "date_added": "13097103936667398",
+            "date_modified": "0",
+            "id": "100",
+            "name": "Импортированные из Firefox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13096751729000000",
+                  "id": "147",
+                  "name": "Начальная страница",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/firefox/central/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "148",
+                  "name": "Getting Started",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/central/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "149",
+                  "name": "YouTube",
+                  "type": "url",
+                  "url": "http://www.youtube.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "150",
+                  "name": "Google",
+                  "type": "url",
+                  "url": "http://www.google.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "151",
+                  "name": "compizomania",
+                  "type": "url",
+                  "url": "http://compizomania.blogspot.com.es/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "152",
+                  "name": "Яндекс",
+                  "type": "url",
+                  "url": "http://www.yandex.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "153",
+                  "name": "Кафедра математической кибернетики",
+                  "type": "url",
+                  "url": "http://mk.cs.msu.ru/index.php/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "154",
+                  "name": "МатКиб Диск",
+                  "type": "url",
+                  "url": "https://drive.google.com/folderview?id=0BwyJSAkhkGYHZlNkX21TOEY4NDA&usp=sharing"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "155",
+                  "name": "Dropbox - Учёба - Simplify your life",
+                  "type": "url",
+                  "url": "https://www.dropbox.com/sh/c2mkehl9yym8yqw/ZWSdejCqTm#/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "156",
+                  "name": "Padabum - cкачать книги бесплатно",
+                  "type": "url",
+                  "url": "http://padabum.com/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "157",
+                  "name": "MEGA",
+                  "type": "url",
+                  "url": "https://mega.co.nz/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "158",
+                  "name": "Михаилъ Гордеевъ",
+                  "type": "url",
+                  "url": "http://vkontakte.ru/mijgan"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "159",
+                  "name": "Hexlet | Свободный университет",
+                  "type": "url",
+                  "url": "https://hexlet.org/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "160",
+                  "name": "Droider - всё об Android. Программы Android | Новости Android | Игры для Android | Google Android приложения",
+                  "type": "url",
+                  "url": "http://droider.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "161",
+                  "name": "ВМК МГУ",
+                  "type": "url",
+                  "url": "http://cs.msu.su/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "162",
+                  "name": "reDroid.ru — Свежий взгляд на OS Android",
+                  "type": "url",
+                  "url": "http://redroid.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "163",
+                  "name": "TLinux | Интересно о Linux и СПО",
+                  "type": "url",
+                  "url": "http://tlinux.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "164",
+                  "name": "Записки дебианщика",
+                  "type": "url",
+                  "url": "http://mydebianblog.blogspot.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "165",
+                  "name": "Игры на андроид",
+                  "type": "url",
+                  "url": "http://news4droid.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "166",
+                  "name": "Index of /docs/courses/osstud/man",
+                  "type": "url",
+                  "url": "http://cs.mipt.ru/docs/courses/osstud/man/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "167",
+                  "name": "Практикум 2 курса | cmc@msu",
+                  "type": "url",
+                  "url": "http://cmcmsu.no-ip.info/2course/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "168",
+                  "name": "Практикум 1 курса | cmc@msu",
+                  "type": "url",
+                  "url": "http://cmcmsu.no-ip.info/1course/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "169",
+                  "name": "YouHTC. Всё для телефонов HTC Touch",
+                  "type": "url",
+                  "url": "http://www.youhtc.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "170",
+                  "name": "ComputerBild.RU | Тема дня",
+                  "type": "url",
+                  "url": "http://www.computerbild.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "171",
+                  "name": "4PDA",
+                  "type": "url",
+                  "url": "http://4pda.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "172",
+                  "name": "Mobile-review.com Все о мобильной технике и технологиях",
+                  "type": "url",
+                  "url": "http://www.mobile-review.com/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "173",
+                  "name": "Почта",
+                  "type": "url",
+                  "url": "http://mail.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "174",
+                  "name": "Карты",
+                  "type": "url",
+                  "url": "http://maps.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "175",
+                  "name": "Contents",
+                  "type": "url",
+                  "url": "http://skif.bas-net.by/bsuir/ipcbook/node1.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "176",
+                  "name": "Словари",
+                  "type": "url",
+                  "url": "http://slovari.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "177",
+                  "name": "Лекции ЧМ",
+                  "type": "url",
+                  "url": "http://vm.cs.msu.su/lec/nmlec/lecnm.htm"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "178",
+                  "name": "Amdm",
+                  "type": "url",
+                  "url": "http://amdm.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "179",
+                  "name": "Index of /docs/courses/osstud",
+                  "type": "url",
+                  "url": "http://cs.mipt.ru/docs/courses/osstud/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "180",
+                  "name": "Видео",
+                  "type": "url",
+                  "url": "http://video.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "181",
+                  "name": "Музыка",
+                  "type": "url",
+                  "url": "http://music.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "182",
+                  "name": "Практикум 1 курса | cmc@msu",
+                  "type": "url",
+                  "url": "http://cmcmsu.no-ip.info/1course/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "183",
+                  "name": "Хабрахабр",
+                  "type": "url",
+                  "url": "http://habrahabr.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "184",
+                  "name": "ВМК МГУ",
+                  "type": "url",
+                  "url": "http://cs.msu.su/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "185",
+                  "name": "NOMOBILE.RU - первый глянцевый сайт о технике",
+                  "type": "url",
+                  "url": "http://www.nomobile.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "186",
+                  "name": "ComputerBild.RU | Тема дня",
+                  "type": "url",
+                  "url": "http://www.computerbild.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "187",
+                  "name": "4PDA",
+                  "type": "url",
+                  "url": "http://4pda.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "188",
+                  "name": "Mobile-review.com Все о мобильной технике и технологиях",
+                  "type": "url",
+                  "url": "http://www.mobile-review.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "189",
+                  "name": "Михаилъ Гордеевъ",
+                  "type": "url",
+                  "url": "http://vkontakte.ru/mijgan"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "190",
+                  "name": "НАШЕ РАДИО",
+                  "type": "url",
+                  "url": "http://www.nashe.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "191",
+                  "name": "iGoogle",
+                  "type": "url",
+                  "url": "http://www.google.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "192",
+                  "name": "Яндекс",
+                  "type": "url",
+                  "url": "http://www.yandex.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "193",
+                  "name": "Маркет",
+                  "type": "url",
+                  "url": "http://market.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "194",
+                  "name": "Новости",
+                  "type": "url",
+                  "url": "http://news.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "195",
+                  "name": "Словари",
+                  "type": "url",
+                  "url": "http://slovari.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "196",
+                  "name": "Видео",
+                  "type": "url",
+                  "url": "http://video.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "197",
+                  "name": "Диск",
+                  "type": "url",
+                  "url": "http://disk.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "198",
+                  "name": "Blog",
+                  "type": "url",
+                  "url": "http://blog.linuxmint.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "199",
+                  "name": "Bash-скрипты",
+                  "type": "url",
+                  "url": "http://www.opennet.ru/docs/RUS/bash_scripting_guide/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "200",
+                  "name": "Подсветка клавиатуры и яркость",
+                  "type": "url",
+                  "url": "http://forum.ubuntu.ru/index.php?topic=198716.0"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "201",
+                  "name": "Linux Mint",
+                  "type": "url",
+                  "url": "http://linuxmint.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "202",
+                  "name": "Community",
+                  "type": "url",
+                  "url": "http://community.linuxmint.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "203",
+                  "name": "Forums",
+                  "type": "url",
+                  "url": "http://forums.linuxmint.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "204",
+                  "name": "Физика",
+                  "type": "url",
+                  "url": "http://www.physics.ru/courses/op25part1/design/index.htm"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "205",
+                  "name": "Часто встречающиеся ошибки стадии компиляции | C++ для людей",
+                  "type": "url",
+                  "url": "http://cppstudy.wordpress.com/2008/12/29/frequent-compile-time-errors/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "206",
+                  "name": "Фильмы онлайн смотреть бесплатно фильмы онлайн в хорошем качестве, онлайн фильмы смотреть бесплатно, смотреть кино онлайн.",
+                  "type": "url",
+                  "url": "http://zerx.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "207",
+                  "name": "Сборка программ",
+                  "type": "url",
+                  "url": "http://help.ubuntu.ru/wiki/programs_installation"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "208",
+                  "name": "Мотоциклы кроссовые, эндуро, питбайк купить, кроссовый мотоцикл купить, мотоцикл",
+                  "type": "url",
+                  "url": "http://xn--e1aogakgbdy.xn--p1ai/index.php/cPath/38"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "209",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "210",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "211",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "212",
+                  "name": "Git - Ветвление в Git",
+                  "type": "url",
+                  "url": "http://git-scm.com/book/ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "213",
+                  "name": "Радио",
+                  "type": "url",
+                  "url": "http://nmgames.kz/topic/2-staroe-novoe-radio-snova-onlain/page-3"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "214",
+                  "name": "Шрифт в консоли",
+                  "type": "url",
+                  "url": "http://www.kwlsoft.ru/font-linux"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "215",
+                  "name": "Debian.org",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "216",
+                  "name": "Latest News",
+                  "type": "url",
+                  "url": "http://www.debian.org/News/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "217",
+                  "name": "Help",
+                  "type": "url",
+                  "url": "http://www.debian.org/support"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "218",
+                  "name": "OpenGL настройка",
+                  "type": "url",
+                  "url": "http://habrahabr.ru/post/177885/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "219",
+                  "name": "2010/8/R - KodomoWiki",
+                  "type": "url",
+                  "url": "https://kodomo.fbb.msu.ru/wiki/2010/8/R"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "220",
+                  "name": "IT eBooks - Free Download - Big Library",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "221",
+                  "name": "Tutorials for COBOL, XSD, XPath, Redis, XSLT, Java XML, VBA, JFreeChart, Lucene, Selenium, DTD, Powerpoint, Tcl/Tk, XML, Software Engineering and many more latest technologies",
+                  "type": "url",
+                  "url": "http://www.tutorialspoint.com/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "222",
+                  "name": "Хабрахабр",
+                  "type": "url",
+                  "url": "http://habrahabr.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "223",
+                  "name": "НАШЕ РАДИО",
+                  "type": "url",
+                  "url": "http://www.nashe.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "224",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "225",
+                  "name": "Маркет",
+                  "type": "url",
+                  "url": "http://market.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "226",
+                  "name": "Новости",
+                  "type": "url",
+                  "url": "http://news.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "227",
+                  "name": "Диск",
+                  "type": "url",
+                  "url": "http://disk.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "228",
+                  "name": "Amdm",
+                  "type": "url",
+                  "url": "http://amdm.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "229",
+                  "name": "reDroid.ru — Свежий взгляд на OS Android",
+                  "type": "url",
+                  "url": "http://redroid.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "230",
+                  "name": "Droider - всё об Android. Программы Android | Новости Android | Игры для Android | Google Android приложения",
+                  "type": "url",
+                  "url": "http://droider.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "231",
+                  "name": "YouHTC. Всё для телефонов HTC Touch",
+                  "type": "url",
+                  "url": "http://www.youhtc.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "232",
+                  "name": "Почта",
+                  "type": "url",
+                  "url": "http://mail.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "233",
+                  "name": "Карты",
+                  "type": "url",
+                  "url": "http://maps.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "234",
+                  "name": "Музыка",
+                  "type": "url",
+                  "url": "http://music.yandex.ru/?win=28&clid=187997"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "235",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "236",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "237",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "238",
+                  "name": "mobi.ru: мобильные телефоны и смартфоны, ноутбуки и компьютеры, плееры, камеры, навигаторы, программы и ОС. Новости о цифровой технике. Статьи, о",
+                  "type": "url",
+                  "url": "http://www.mobi.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "239",
+                  "name": "NOMOBILE.RU - первый глянцевый сайт о технике",
+                  "type": "url",
+                  "url": "http://www.nomobile.ru/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "240",
+                  "name": "Getting Started",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/central/"
+               } ],
+               "date_added": "13097103940316577",
+               "date_modified": "0",
+               "id": "146",
+               "name": "Панель закладок",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096751729000000",
+                  "id": "242",
+                  "name": "Ubuntu",
+                  "type": "url",
+                  "url": "http://www.ubuntu.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "243",
+                  "name": "Ubuntu Wiki (community-edited website)",
+                  "type": "url",
+                  "url": "http://wiki.ubuntu.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "244",
+                  "name": "Make a Support Request to the Ubuntu Community",
+                  "type": "url",
+                  "url": "https://answers.launchpad.net/ubuntu/+addquestion"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "245",
+                  "name": "Debian (Ubuntu is based on Debian)",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "246",
+                  "name": "Ubuntu One - The personal cloud that brings your digital life together",
+                  "type": "url",
+                  "url": "https://one.ubuntu.com/"
+               } ],
+               "date_added": "13097103940329479",
+               "date_modified": "0",
+               "id": "241",
+               "name": "Ubuntu and Free Software links",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096751691000000",
+                  "id": "248",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/help/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "249",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "250",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13096751691000000",
+                  "id": "251",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "252",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/help/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "253",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "254",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/firefox/community/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "255",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "http://www.mozilla.com/en-US/about/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "256",
+                  "name": "Справка и руководства",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/firefox/help/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "257",
+                  "name": "Настройка Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/firefox/customize/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "258",
+                  "name": "Присоединяйтесь к сообществу",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/contribute/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "259",
+                  "name": "О нас",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/ru/about/"
+               } ],
+               "date_added": "13097103940330072",
+               "date_modified": "0",
+               "id": "247",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13096751728000000",
+                  "id": "261",
+                  "name": "Диалоги",
+                  "type": "url",
+                  "url": "http://vk.com/im"
+               } ],
+               "date_added": "13097103940331413",
+               "date_modified": "0",
+               "id": "260",
+               "name": "X-notifier",
+               "type": "folder"
+            }, {
+               "date_added": "13096751729000000",
+               "id": "262",
+               "name": "Сергей Пронин",
+               "type": "url",
+               "url": "http://vk.com/sergobadgo"
+            }, {
+               "date_added": "13096751729000000",
+               "id": "263",
+               "name": "[SOLVED] How do I log out via terminal?",
+               "type": "url",
+               "url": "http://www.linuxquestions.org/questions/ubuntu-63/how-do-i-log-out-via-terminal-928183/"
+            }, {
+               "children": [ {
+                  "date_added": "13096751728000000",
+                  "id": "265",
+                  "name": "GitHub",
+                  "type": "url",
+                  "url": "https://github.com/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "266",
+                  "name": "Head First jQuery - Free Download eBook - pdf",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/book/345/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "267",
+                  "name": "Михаил Гордеев",
+                  "type": "url",
+                  "url": "https://vk.com/mijgan"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "268",
+                  "name": "Operator-Pending Mappings / Learn Vimscript the Hard Way",
+                  "type": "url",
+                  "url": "http://learnvimscriptthehardway.stevelosh.com/chapters/15.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "269",
+                  "name": "The Perl Programming Language - www.perl.org",
+                  "type": "url",
+                  "url": "https://www.perl.org/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "270",
+                  "name": "Язык программирования PERL",
+                  "type": "url",
+                  "url": "http://perl.find-info.ru/"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "271",
+                  "name": "1001 Free Fonts - Download 14494 Free Fonts",
+                  "type": "url",
+                  "url": "http://www.1001freefonts.com/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "272",
+                  "name": "Detexify LaTeX handwritten symbol recognition",
+                  "type": "url",
+                  "url": "http://detexify.kirelabs.org/classify.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "273",
+                  "name": "нейросети - Dropbox",
+                  "type": "url",
+                  "url": "https://www.dropbox.com/sh/5dwan0dcjgsw5en/AAACs0ASsq7TJZGqWjtgzWQNa?dl=0"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "274",
+                  "name": "Extensions Index · ipython/ipython Wiki",
+                  "type": "url",
+                  "url": "https://github.com/ipython/ipython/wiki/Extensions-Index"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "275",
+                  "name": "Основы функционального программирования — Викиучебник",
+                  "type": "url",
+                  "url": "http://ru.wikibooks.org/wiki/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "276",
+                  "name": "Журнал «Практика функционального программирования»",
+                  "type": "url",
+                  "url": "http://fprog.ru/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "277",
+                  "name": "IT eBooks - Free Download - Big Library",
+                  "type": "url",
+                  "url": "http://it-ebooks.info/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "278",
+                  "name": "Tutorials - HaskellWiki",
+                  "type": "url",
+                  "url": "https://www.haskell.org/haskellwiki/Tutorials"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "279",
+                  "name": "Материалы для лекций в МГУ (ВМК, 2014-2015) по \"технологиям SAS\" | SAS",
+                  "type": "url",
+                  "url": "http://www.sas.com/ru_ru/academic/mgu_sas.html#--------1"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "280",
+                  "name": "Зарплата в Сетелем - Google Таблицы",
+                  "type": "url",
+                  "url": "https://docs.google.com/spreadsheets/d/1jo5MKHCNzM_CKpsdgSdJfT9SZ-U2zl0frqu6Rm96Mno/edit#gid=2088285147"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "281",
+                  "name": "Типичный программист – Оптимизация в GCC",
+                  "type": "url",
+                  "url": "http://tproger.ru/translations/will-it-optimize-gcc/"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "282",
+                  "name": "Курс: Биофизика: от неживого к живому, от принципов к механизмам",
+                  "type": "url",
+                  "url": "http://distant.msu.ru/course/view.php?id=403"
+               }, {
+                  "date_added": "13096751728000000",
+                  "id": "283",
+                  "name": "Installing GHC",
+                  "type": "url",
+                  "url": "http://users.jyu.fi/~sapekiis/install-ghc/index.html"
+               }, {
+                  "date_added": "13096751729000000",
+                  "id": "284",
+                  "name": "Настройка рабочего окружения с openbox",
+                  "type": "url",
+                  "url": "http://www.unix-lab.org/posts/openbox/"
+               } ],
+               "date_added": "13097103940331794",
+               "date_modified": "0",
+               "id": "264",
+               "name": "Неподшитые закладки",
+               "type": "folder"
+            } ],
+            "date_added": "13097103940316543",
+            "date_modified": "0",
+            "id": "145",
+            "name": "Импортированные из Firefox (1)",
+            "type": "folder"
+         } ],
+         "date_added": "13097103881261640",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Панель закладок",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13097103881261656",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Другие закладки",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13097103881261659",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Закладки на мобильном",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel>
+<bookmark href="https://music.yandex.ru/">
+<title>Яндекс.Музыка</title>
+<info>
+<metadata tabby-tstamp="1452796395" tabby-id="6" sorting="2560" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://radio.yandex.ru/?from=music_tab">
+<title>Яндекс.Радио</title>
+<info>
+<metadata tabby-tstamp="1452796398" tabby-id="8" icon="https://radio.yandex.ru/favicon.ico?v=0.1.94" sorting="2688" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://radio.yandex.ru/epoch/nineties">
+<title>What Is Love? - Haddaway</title>
+<info>
+<metadata tabby-tstamp="1452796687" tabby-id="7" sorting="2816" mime-type="text/html"/>
+</info>
+</bookmark>
+</xbel>
