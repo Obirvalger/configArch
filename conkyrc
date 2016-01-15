@@ -66,7 +66,7 @@ TEXT
 #$hr
 #${color1}Ядро:$color $kernel
 ${color fff2c0}${font :size=50}$alignc${time %H:%M:%S}${color e0d5da}${font :size=26}
-$alignc${time %A %d/%m/%Y} ${font}
+$alignc${time %A %d.%m.%Y} ${font}
 #${execpi 600 DJS=`date +%_d`; cal -h | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color 949074}'"$DJS"'$color'/} # | sed s/^/'${alignc}'/}
 #${color1}Uptime:$color ${uptime %M:%S}
 ${color1}Батарея:$color $battery_percent% ${battery_bar 7} 
