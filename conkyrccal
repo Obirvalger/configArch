@@ -29,7 +29,10 @@ draw_shades no
 background no
 border_width 1
 cpu_avg_samples 2
-default_color 6a3a20
+default_color 4f354d
+color1 4a7a70
+color2 8faaaf
+color3 a4a494
 default_outline_color 202020
 default_shade_color black
 draw_borders no
@@ -54,5 +57,7 @@ update_interval 2.0
 
 TEXT
 #${exec cal}
-${execpi 1 DJS=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color 949074}'"$DJS"'$color'/}
+#${execpi 1 DJS=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color 949074}'"$DJS"'$color'/}
 #${execpi 1 DJS=`date +%_d`; cal -h | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color 949074}'"$DJS"'$color'/ | sed s/^/'${alignc}'/}
+${execpi 1 DJS=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color3}'"$DJS"'$color'/ | nl -s" " | sed s/"^\s*1\s\(.*\)"/'$color1\1$color'/ |  sed s/"^\s*2\s\(.*\)"/'$color2\1$color'/ | sed s/"^\s*[3-9]\s\(.*\)"/'\1'/ | sed \$d}
+
