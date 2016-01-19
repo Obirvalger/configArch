@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel>
-<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
-<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
-<info>
-<metadata tabby-tstamp="1453236160" tabby-id="8" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="3584" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
-<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
-<info>
-<metadata tabby-tstamp="1453236161" tabby-id="7" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="4096" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
-<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
-<info>
-<metadata tabby-tstamp="1453236162" tabby-id="9" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="3328" mime-type="text/html"/>
-</info>
-</bookmark>
 <bookmark href="https://github.com/garabik/grc">
 <title>garabik/grc: generic colouriser - GitHub</title>
 <info>
@@ -58,6 +40,24 @@
 <title>OpenNET: статья - Командный процессор Zsh (shell zsh)</title>
 <info>
 <metadata tabby-tstamp="1453237803" tabby-id="7" icon="https://www.opennet.ru/favicon.ico" sorting="4096" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://whatthecommit.com/index.txt)">
+<title>404: Not Found</title>
+<info>
+<metadata tabby-tstamp="1453239403" tabby-id="10" sorting="2240" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://grml.org/zsh/">
+<title>grml.org - Zsh</title>
+<info>
+<metadata tabby-tstamp="1453239415" tabby-id="8" icon="http://grml.org/favicon.png" sorting="2304" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://github.com/slashbeast/things/blob/master/configs/DOTzshrc">
+<title>things/DOTzshrc at master · slashbeast/things · GitHub</title>
+<info>
+<metadata tabby-tstamp="1453239416" tabby-id="7" icon="https://assets-cdn.github.com/favicon.ico" sorting="2560" mime-type="text/html"/>
 </info>
 </bookmark>
 </xbel>

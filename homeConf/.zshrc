@@ -18,6 +18,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
 alias du='du -h --max-depth=0'
+alias gp='git add -A; git commit -m "$(date +"%x %X")"; git push origin master'
 
 export EDITOR="vim"
 
