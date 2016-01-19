@@ -104,8 +104,8 @@ complete -cf man
 
 shopt -s autocd
 
-export PAGER='vimpager'
-alias less=$PAGER
+#export PAGER='vimpager'
+#alias less=$PAGER
 
 #alias p='parallel --no-notice'
 alias parallel='parallel --no-notice'

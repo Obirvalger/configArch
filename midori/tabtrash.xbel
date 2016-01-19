@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel>
-<bookmark href="https://music.yandex.ru/">
-<title>Яндекс.Музыка</title>
+<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
+<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
 <info>
-<metadata tabby-tstamp="1452796395" tabby-id="6" sorting="2560" mime-type="text/html"/>
+<metadata tabby-tstamp="1453236160" tabby-id="8" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="3584" mime-type="text/html"/>
 </info>
 </bookmark>
-<bookmark href="https://radio.yandex.ru/?from=music_tab">
-<title>Яндекс.Радио</title>
+<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
+<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
 <info>
-<metadata tabby-tstamp="1452796398" tabby-id="8" icon="https://radio.yandex.ru/favicon.ico?v=0.1.94" sorting="2688" mime-type="text/html"/>
+<metadata tabby-tstamp="1453236161" tabby-id="7" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="4096" mime-type="text/html"/>
 </info>
 </bookmark>
-<bookmark href="https://radio.yandex.ru/epoch/nineties">
-<title>What Is Love? - Haddaway</title>
+<bookmark href="http://unix.stackexchange.com/questions/111718/command-history-in-zsh">
+<title>Command history in Zsh - Unix &amp; Linux Stack Exchange</title>
 <info>
-<metadata tabby-tstamp="1452796687" tabby-id="7" sorting="2816" mime-type="text/html"/>
+<metadata tabby-tstamp="1453236162" tabby-id="9" icon="http://cdn.sstatic.net/unix/img/favicon.ico?v=546c52892feb" sorting="3328" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://github.com/garabik/grc">
+<title>garabik/grc: generic colouriser - GitHub</title>
+<info>
+<metadata tabby-tstamp="1453236889" tabby-id="6" icon="https://assets-cdn.github.com/favicon.ico" sorting="3072" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://wiki.archlinux.org/index.php/Fish_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)">
+<title>fish (Русский) - ArchWiki</title>
+<info>
+<metadata tabby-tstamp="1453237181" tabby-id="6" icon="https://wiki.archlinux.org/favicon.ico" sorting="3072" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://zsh.sourceforge.net/Doc/Release/Command-Execution.html">
+<title>zsh: 8 Command Execution</title>
+<info>
+<metadata tabby-tstamp="1453237430" tabby-id="7" icon="http://zsh.sourceforge.net/favicon.ico" sorting="4096" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://gist.github.com/agnoster/3712874">
+<title>My ZSH Theme · GitHub</title>
+<info>
+<metadata tabby-tstamp="1453237466" tabby-id="7" icon="https://assets-cdn.github.com/favicon.ico" sorting="4096" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://zsh-workers.zsh.narkive.com/XwScfZqj/prompt-problem">
+<title>prompt problem</title>
+<info>
+<metadata tabby-tstamp="1453237514" tabby-id="7" icon="http://zsh-workers.zsh.narkive.com/favicon.ico" sorting="4096" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://stackoverflow.com/questions/1763156/127-return-code-from">
+<title>process - 127 Return code from $? - Stack Overflow</title>
+<info>
+<metadata tabby-tstamp="1453237622" tabby-id="7" icon="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d" sorting="4096" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://www.opennet.ru/base/dev/zsh.txt.html">
+<title>OpenNET: статья - Командный процессор Zsh (shell zsh)</title>
+<info>
+<metadata tabby-tstamp="1453237803" tabby-id="7" icon="https://www.opennet.ru/favicon.ico" sorting="4096" mime-type="text/html"/>
 </info>
 </bookmark>
 </xbel>

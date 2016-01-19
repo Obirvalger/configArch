@@ -12,12 +12,13 @@ enable-site-specific-quirks=true
 enable-webgl=true
 enable-javascript=true
 default-charset=ISO-8859-1
-last-window-width=803
-last-window-height=451
+last-window-width=1366
+last-window-height=746
 last-panel-position=181
 last-web-search=5
 last-window-state=MIDORI_WINDOW_MAXIMIZED
 location-entry-search=http://www.google.com/search?q=%s
+show-navigationbar=false
 show-statusbar=false
 toolbar-items=TabNew,Back,NextForward,ReloadStop,BookmarkAdd,Location,Search,Trash,CompactMenu
 homepage=https://www.google.ru/?gfe_rd=cr&ei=MmOVVpvoC9SBtAHauZHwCQ&gws_rd=ssl

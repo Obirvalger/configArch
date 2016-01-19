@@ -266,6 +266,21 @@ enabled 1
 mime cdda
 subtunes 2
 writes 0
+input /usr/lib/audacious/Input/madplug.so
+stamp 1451387717
+version 47
+name MPG123 Plugin
+domain audacious-plugins
+priority 0
+about 0
+config 1
+enabled 1
+scheme mp3
+scheme mp2
+scheme mp1
+scheme bmu
+subtunes 0
+writes 1
 input /usr/lib/audacious/Input/flacng.so
 stamp 1451387717
 version 47
@@ -542,6 +557,15 @@ general /usr/lib/audacious/General/alarm.so
 stamp 1451387718
 version 65583
 name Alarm
+domain audacious-plugins
+priority 0
+about 1
+config 1
+enabled 0
+general /usr/lib/audacious/General/notify.so
+stamp 1451387718
+version 65583
+name Desktop Notifications
 domain audacious-plugins
 priority 0
 about 1

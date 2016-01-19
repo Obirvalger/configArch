@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clearlooks-3.4</name>
+    <name>Zuki Blues Shine</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -255,7 +255,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>xfce4-terminal --fullscreen --hide-menubar</command>
+        <command>lxterminal</command>
       </action>
     </keybind>
     <keybind key="W-p">
@@ -347,6 +347,9 @@
       <action name="Execute">
         <command>amixer set Master toggle</command>
       </action>
+    </keybind>
+    <keybind key="A-F11">
+      <action name="ToggleFullscreen"/>
     </keybind>
     <keybind key="A-F10">
       <action name="ToggleMaximizeFull"/>
@@ -872,6 +875,25 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+    <applicationIcons>yes</applicationIcons>
+    <!--> <application name="*">
+  <fullscreen>yes</fullscreen>
+  </application> <-->
+  <application class="Firefox*">
+    <fullscreen>yes</fullscreen>
+  </application>
+    <application name="lxterminal">
+      <fullscreen>yes</fullscreen>
+    </application>
+    <!--> <application class="steam">
+    <fullscreen>no</fullscreen>
+  </application> <-->
+    <application name="gmrun">
+      <fullscreen>no</fullscreen>
+    </application>
+    <application type="dialog">
+      <fullscreen>no</fullscreen>
+    </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.

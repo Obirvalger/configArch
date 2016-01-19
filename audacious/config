@@ -2,12 +2,31 @@
 [alsa]
 mixer-element=Master
 
+[audacious]
+shuffle=TRUE
+
+[audgui]
+filebrowser_win=346,130,672,480
+filesel_path=/home/ogneslav/Music
+
+[crystalizer]
+intensity=0.5
+
 [gtkui]
 column_widths=10,275,175,10,175,175,10,100,43,10,275,275,275,10
-player_height=480
-player_width=768
+player_height=768
+player_width=1366
 player_x=0
 player_y=0
 
 [gtkui-layout]
-item_count=0
+item0_name=OpenGL Спектральный Анализатор
+item0_pos=-1,0,0,280,184
+item1_name=Анализатор спектра
+item1_pos=-1,0,0,1362,764
+item2_name=Размывающийся уровень
+item2_pos=-1,0,0,276,180
+item_count=3
+
+[silence-removal]
+threshold=-20
