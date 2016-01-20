@@ -92,8 +92,6 @@ gp () {
         brn=$2
     fi
     
-    $(git add -A)
-    $(git commit -m \"$msg\")
-    $(git push origin $brn)
+    zsh -c "git add -A; git commit -m \"$msg\"; git push origin $brn"
 
 }
