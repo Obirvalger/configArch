@@ -91,6 +91,9 @@ gp () {
     if [ $2 ]; then
         brn=$2
     fi
-    echo "git add -A; git commit -m \"$msg\"; git push origin $brn"
+    
+    $(git add -A)
+    $(git commit -m \"$msg\")
+    $(git push origin $brn)
 
 }
