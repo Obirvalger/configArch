@@ -5,6 +5,9 @@ SAVEHIST=10000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
+
+unsetopt PRINT_EXIT_VALUE
+
 zstyle :compinstall filename '/home/ogneslav/.zshrc'
 zstyle ':completion:*' rehash true
 
@@ -18,7 +21,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
 alias du='du -h --max-depth=0'
-alias gp='git add -A; git commit -m "$(date +"%x %X")"; git push origin master'
+alias pacman='sudo pacman'
 
 export EDITOR="vim"
 
@@ -77,4 +80,17 @@ esac
 else
 echo "'$1' не является допустимым файлом"
 fi
+}
+
+gp () {
+    msg=$(date +"%x %X")
+    brn=$(git rev-parse --abbrev-ref HEAD)
+    if [ $1 ]; then
+        msg=$1
+    fi
+    if [ $2 ]; then
+        brn=$2
+    fi
+    echo "git add -A; git commit -m \"$msg\"; git push origin $brn"
+
 }

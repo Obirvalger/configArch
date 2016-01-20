@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel>
-<bookmark href="https://github.com/garabik/grc">
-<title>garabik/grc: generic colouriser - GitHub</title>
-<info>
-<metadata tabby-tstamp="1453236889" tabby-id="6" icon="https://assets-cdn.github.com/favicon.ico" sorting="3072" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://wiki.archlinux.org/index.php/Fish_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)">
-<title>fish (Русский) - ArchWiki</title>
-<info>
-<metadata tabby-tstamp="1453237181" tabby-id="6" icon="https://wiki.archlinux.org/favicon.ico" sorting="3072" mime-type="text/html"/>
-</info>
-</bookmark>
 <bookmark href="http://zsh.sourceforge.net/Doc/Release/Command-Execution.html">
 <title>zsh: 8 Command Execution</title>
 <info>
@@ -58,6 +46,18 @@
 <title>things/DOTzshrc at master · slashbeast/things · GitHub</title>
 <info>
 <metadata tabby-tstamp="1453239416" tabby-id="7" icon="https://assets-cdn.github.com/favicon.ico" sorting="2560" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="http://dobroserver.ru/delaem-iz-zsh-morozhenku">
+<title>Делаем из zsh мороженку › Dobroserver</title>
+<info>
+<metadata tabby-tstamp="1453239420" tabby-id="9" icon="http://dobroserver.ru/favicon.png" sorting="2176" mime-type="text/html"/>
+</info>
+</bookmark>
+<bookmark href="https://www.google.ru/search?q=zsh+127&amp;gws_rd=cr,ssl&amp;ei=p6SeVqWdCsWjyAPZjZnoDw#newwindow=1&amp;q=zsh+%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4+%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA">
+<title>zsh вывод ошибок - Поиск в Google</title>
+<info>
+<metadata tabby-id="6" sorting="3072" tabby-tstamp="1453239552" mime-type="text/html"/>
 </info>
 </bookmark>
 </xbel>
