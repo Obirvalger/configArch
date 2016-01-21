@@ -1,15 +1,11 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
+
+#zstyle ':prompt:grml:left:setup' items change-root user at host path vcs percent
 
 unsetopt PRINT_EXIT_VALUE
-
-zstyle :compinstall filename '/home/ogneslav/.zshrc'
-zstyle ':completion:*' rehash true
 
 alias cp='cp -vr'
 alias mv='mv -v'
@@ -20,18 +16,19 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
-alias du='du -h --max-depth=0'
+alias du0='du -h --max-depth=0'
+alias du1='du -h --max-depth=1'
 alias pacman='sudo pacman'
+alias vzs='vim ~/.zshrc && source ~/.zshrc'
+alias ys='yaourt -Ss'
 
 export EDITOR="vim"
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
-
-autoload -U promptinit
+autoload -Uz promptinit
 promptinit
-prompt grml
+prompt off
 
 if [ -f /usr/bin/grc ]; then
  alias gcc="grc --colour=auto gcc"
@@ -42,6 +39,10 @@ if [ -f /usr/bin/grc ]; then
  alias proftpd="grc --colour=auto proftpd"
  alias traceroute="grc --colour=auto traceroute"
 fi
+
+autoload -U colors && colors
+PROMPT="%F{4}[%F{6}%!%F{4}] %F{0}%B%T%b %F{2} %~ %f %(!.#.%%) "
+RPROMPT="%(?,,%F{red}%?)"
 
 ex () {
  if [ -f $1 ] ; then
@@ -94,4 +95,13 @@ gp () {
     
     zsh -c "git add -A; git commit -m \"$msg\"; git push origin $brn"
 
+}
+
+yi () {
+    d=$(pwd)
+    cd ~/builds
+    yaourt -Ga $1
+    cd $1
+    makepkg -sri 
+    cd $d
 }

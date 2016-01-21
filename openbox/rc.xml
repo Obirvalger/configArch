@@ -230,7 +230,7 @@
     </keybind>
     <keybind key="W-a">
       <action name="Execute">
-        <command>atril</command>
+        <command>evince</command>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -250,7 +250,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>xterm -fa 'monospace' -fs 14 -fullscreen</command>
+        <command>xterm -fa 'mono' -fs 14 -fullscreen</command>
       </action>
     </keybind>
     <keybind key="W-t">
@@ -882,9 +882,14 @@
   <application class="Firefox*">
     <fullscreen>yes</fullscreen>
   </application>
-    <application name="lxterminal">
-      <fullscreen>yes</fullscreen>
-    </application>
+  
+  <application name="lxterminal">
+    <fullscreen>yes</fullscreen>
+  </application>
+
+  <application name="evince">
+    <fullscreen>yes</fullscreen>
+  </application>
     <!--> <application class="steam">
     <fullscreen>no</fullscreen>
   </application> <-->

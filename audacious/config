@@ -14,7 +14,7 @@ intensity=0.5
 
 [gtkui]
 column_widths=10,275,175,10,175,175,10,100,43,10,275,275,275,10
-player_height=768
+player_height=746
 player_width=1366
 player_x=0
 player_y=0
