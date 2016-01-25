@@ -41,9 +41,10 @@ if [ -f /usr/bin/grc ]; then
 fi
 
 autoload -U colors && colors
-PROMPT="%F{4}[%F{6}%!%F{4}] %F{0}%B%T%b %F{2} %~ %f %(!.#.%%) "
-RPROMPT="%(?,,%F{red}%?)"
-
+PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
+#PS1='$LINENO'
+RPROMPT="%(?..%F{red}%?)"
+setopt promptsubst
 ex () {
  if [ -f $1 ] ; then
    case $1 in

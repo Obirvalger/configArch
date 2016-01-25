@@ -230,7 +230,7 @@
     </keybind>
     <keybind key="W-a">
       <action name="Execute">
-        <command>evince</command>
+        <command>llpp</command>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -888,6 +888,10 @@
   </application>
 
   <application name="evince">
+    <fullscreen>yes</fullscreen>
+  </application>
+
+  <application name="llpp">
     <fullscreen>yes</fullscreen>
   </application>
     <!--> <application class="steam">

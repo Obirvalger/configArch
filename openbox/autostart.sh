@@ -16,5 +16,5 @@ xxkb &
 #killall ibus-daemon
 lxterminal &
 #firefox &
-#yandex-disk start
+yandex-disk start
 #stardict -h &
