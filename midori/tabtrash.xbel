@@ -1,63 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel>
-<bookmark href="http://zsh.sourceforge.net/Doc/Release/Command-Execution.html">
-<title>zsh: 8 Command Execution</title>
+<bookmark href="file:///home/ogneslav/tmp.pl.html">
+<title>/home/ogneslav/tmp.pl</title>
 <info>
-<metadata tabby-tstamp="1453237430" tabby-id="7" icon="http://zsh.sourceforge.net/favicon.ico" sorting="4096" mime-type="text/html"/>
+<metadata tabby-tstamp="1453894938" tabby-id="6" sorting="3072" mime-type="text/html"/>
 </info>
 </bookmark>
-<bookmark href="https://gist.github.com/agnoster/3712874">
-<title>My ZSH Theme · GitHub</title>
+<bookmark href="https://www.google.ru/search?q=arch&amp;gws_rd=cr,ssl&amp;ei=W62oVp70OMfmyQORm6nYCg">
+<title>arch - Поиск в Google</title>
 <info>
-<metadata tabby-tstamp="1453237466" tabby-id="7" icon="https://assets-cdn.github.com/favicon.ico" sorting="4096" mime-type="text/html"/>
+<metadata tabby-tstamp="1453894964" icon="https://www.google.ru/images/branding/product/ico/googleg_lodp.ico" sorting="2048" tabby-id="2" mime-type="text/html"/>
 </info>
 </bookmark>
-<bookmark href="http://zsh-workers.zsh.narkive.com/XwScfZqj/prompt-problem">
-<title>prompt problem</title>
+<bookmark href="https://www.archlinux.org/">
+<title>Arch Linux</title>
 <info>
-<metadata tabby-tstamp="1453237514" tabby-id="7" icon="http://zsh-workers.zsh.narkive.com/favicon.ico" sorting="4096" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://stackoverflow.com/questions/1763156/127-return-code-from">
-<title>process - 127 Return code from $? - Stack Overflow</title>
-<info>
-<metadata tabby-tstamp="1453237622" tabby-id="7" icon="http://cdn.sstatic.net/stackoverflow/img/favicon.ico?v=4f32ecc8f43d" sorting="4096" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://www.opennet.ru/base/dev/zsh.txt.html">
-<title>OpenNET: статья - Командный процессор Zsh (shell zsh)</title>
-<info>
-<metadata tabby-tstamp="1453237803" tabby-id="7" icon="https://www.opennet.ru/favicon.ico" sorting="4096" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://whatthecommit.com/index.txt)">
-<title>404: Not Found</title>
-<info>
-<metadata tabby-tstamp="1453239403" tabby-id="10" sorting="2240" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://grml.org/zsh/">
-<title>grml.org - Zsh</title>
-<info>
-<metadata tabby-tstamp="1453239415" tabby-id="8" icon="http://grml.org/favicon.png" sorting="2304" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://github.com/slashbeast/things/blob/master/configs/DOTzshrc">
-<title>things/DOTzshrc at master · slashbeast/things · GitHub</title>
-<info>
-<metadata tabby-tstamp="1453239416" tabby-id="7" icon="https://assets-cdn.github.com/favicon.ico" sorting="2560" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="http://dobroserver.ru/delaem-iz-zsh-morozhenku">
-<title>Делаем из zsh мороженку › Dobroserver</title>
-<info>
-<metadata tabby-tstamp="1453239420" tabby-id="9" icon="http://dobroserver.ru/favicon.png" sorting="2176" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://www.google.ru/search?q=zsh+127&amp;gws_rd=cr,ssl&amp;ei=p6SeVqWdCsWjyAPZjZnoDw#newwindow=1&amp;q=zsh+%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4+%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA">
-<title>zsh вывод ошибок - Поиск в Google</title>
-<info>
-<metadata tabby-id="6" sorting="3072" tabby-tstamp="1453239552" mime-type="text/html"/>
+<metadata tabby-id="6" icon="https://d11xdyzr0div58.cloudfront.net/static/favicon.29302f683ff8.ico" sorting="3072" mime-type="text/html"/>
 </info>
 </bookmark>
 </xbel>

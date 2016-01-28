@@ -1,107 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
-	<menu id="apps-term-menu" label="Системные">
-		<item label="LXTerminal" icon="/usr/share/icons/hicolor/128x128/apps/lxterminal.png">
-			<action name="Execute"><execute>lxterminal</execute></action>
-		</item>
-		<item label="Xfce Terminal" icon="/usr/share/icons/gnome/16x16/apps/utilities-terminal.png">
-			<action name="Execute">
-				<command>xfce4-terminal</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="XTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
-			<action name="Execute">
-				<command>xterm</command>
-			</action>
-		</item>
-		<item label="Анализатор использования дисков" icon="/usr/share/icons/hicolor/16x16/apps/baobab.png">
-			<action name="Execute"><execute>baobab</execute></action>
-		</item>
-		<item label="Файловый менеджер PCManFM" icon="/usr/share/icons/gnome/16x16/apps/system-file-manager.png">
-			<action name="Execute"><execute>pcmanfm </execute></action>
-		</item>
-	</menu>
-	<menu id="apps-net-menu" label="Интернет">
-		<item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
-			<action name="Execute">
-				<command>firefox</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-					<wmclass>Firefox</wmclass>
-				</startupnotify>
-			</action>
-		</item>
-		<item label="Chromium" icon="/usr/share/icons/hicolor/16x16/apps/chromium.png">
-			<action name="Execute">
-				<execute>chromium</execute>
-			</action>
-		</item>
-		<item label="Midori" icon="/usr/share/icons/hicolor/16x16/apps/midori.png">
-			<action name="Execute">
-				<execute>midori</execute>
-			</action>
-		</item>
-	</menu>
-	<menu id="apps-game-menu" label="Игры">
-		<item label="CS Source" icon=".local/share/icons/hicolor/16x16/apps/steam_icon_240.png">
-			<action name="Execute">
-				<execute>steam steam://rungameid/240</execute>
-			</action>
-		</item>
-		<item label="CS 1.6" icon=".local/share/icons/hicolor/16x16/apps/steam_icon_10.png">
-			<action name="Execute">
-				<execute>steam steam://rungameid/10</execute>
-			</action>
-		</item>
-		<item label="SuperTux 2" icon="/usr/share/pixmaps/supertux.png">
-			<action name="Execute">
-				<execute>supertux2</execute>
-			</action>
-		</item>
-		<item label="SuperTuxKart" icon="/usr/share/pixmaps/supertuxkart_128.png">
-			<action name="Execute">
-				<execute>supertuxkart</execute>
-			</action>
-		</item>
-		<item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-			<action name="Execute">
-				<execute>steam</execute>
-			</action>
-		</item>
-		<item label="AssaultCube" icon="/usr/share/pixmaps/assaultcube.png">
-			<action name="Execute">
-				<execute>assaultcube</execute>
-			</action>
-		</item>
-		<item label="Neverball" icon="/usr/share/icons/hicolor/16x16/apps/neverball.png">
-			<action name="Execute">
-				<execute>neverball</execute>
-			</action>
-		</item>
-		<item label="Neverputt" icon="/usr/share/icons/hicolor/16x16/apps/neverputt.png">
-			<action name="Execute"><execute>neverputt</execute></action>
-		</item>
-	</menu>
-	<menu id="root-menu" label="Openbox 3">
-		<separator label="Приложения"/>
-		<menu id="apps-accessories-menu"/>
-		<menu id="apps-editors-menu"/>
-		<menu id="apps-graphics-menu"/>
-		<menu id="apps-net-menu"/>
-		<menu id="apps-office-menu"/>
-		<menu id="apps-multimedia-menu"/>
-		<menu id="apps-term-menu"/>
-		<menu id="apps-game-menu"/>
-		<menu id="apps-fileman-menu"/>
-		<!--> <separator label="System"/> <-->
-		<separator/>
-		<item label="Выход">
-			<action name="Execute">
-				<execute>oblogout</execute>
-			</action>
-		</item>
-	</menu>
+  <menu id="apps-term-menu" label="Системные">
+    <item label="LXTerminal" icon="/usr/share/icons/hicolor/128x128/apps/lxterminal.png">
+      <action name="Execute">
+        <execute>lxterminal</execute>
+      </action>
+    </item>
+    <item label="Xfce Terminal" icon="/usr/share/icons/gnome/16x16/apps/utilities-terminal.png">
+      <action name="Execute">
+        <command>xfce4-terminal</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="XTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
+      <action name="Execute">
+        <command>xterm</command>
+      </action>
+    </item>
+    <item label="Анализатор использования дисков" icon="/usr/share/icons/hicolor/16x16/apps/baobab.png">
+      <action name="Execute">
+        <execute>baobab</execute>
+      </action>
+    </item>
+    <item label="Файловый менеджер PCManFM" icon="/usr/share/icons/gnome/16x16/apps/system-file-manager.png">
+      <action name="Execute">
+        <execute>pcmanfm</execute>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-net-menu" label="Интернет">
+    <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
+      <action name="Execute">
+        <command>firefox</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>Firefox</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Chromium" icon="/usr/share/icons/hicolor/16x16/apps/chromium.png">
+      <action name="Execute">
+        <execute>chromium</execute>
+      </action>
+    </item>
+    <item label="Midori" icon="/usr/share/icons/hicolor/16x16/apps/midori.png">
+      <action name="Execute">
+        <execute>midori</execute>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-game-menu" label="Игры">
+    <item label="CS Source" icon=".local/share/icons/hicolor/16x16/apps/steam_icon_240.png">
+      <action name="Execute">
+        <execute>steam steam://rungameid/240</execute>
+      </action>
+    </item>
+    <item label="CS 1.6" icon=".local/share/icons/hicolor/16x16/apps/steam_icon_10.png">
+      <action name="Execute">
+        <execute>steam steam://rungameid/10</execute>
+      </action>
+    </item>
+    <item label="SuperTux 2" icon="/usr/share/pixmaps/supertux.png">
+      <action name="Execute">
+        <execute>supertux2</execute>
+      </action>
+    </item>
+    <item label="SuperTuxKart" icon="/usr/share/pixmaps/supertuxkart_128.png">
+      <action name="Execute">
+        <execute>supertuxkart</execute>
+      </action>
+    </item>
+    <item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+      <action name="Execute">
+        <execute>steam</execute>
+      </action>
+    </item>
+    <item label="AssaultCube" icon="/usr/share/pixmaps/assaultcube.png">
+      <action name="Execute">
+        <execute>assaultcube</execute>
+      </action>
+    </item>
+    <item label="Neverball" icon="/usr/share/icons/hicolor/16x16/apps/neverball.png">
+      <action name="Execute">
+        <execute>neverball</execute>
+      </action>
+    </item>
+    <item label="Neverputt" icon="/usr/share/icons/hicolor/16x16/apps/neverputt.png">
+      <action name="Execute">
+        <execute>neverputt</execute>
+      </action>
+    </item>
+  </menu>
+  <menu id="root-menu" label="Openbox 3">
+    <separator label="Приложения" />
+    <menu id="apps-accessories-menu" />
+    <menu id="apps-editors-menu" />
+    <menu id="apps-graphics-menu" />
+    <menu id="apps-net-menu" />
+    <menu id="apps-office-menu" />
+    <menu id="apps-multimedia-menu" />
+    <menu id="apps-term-menu" />
+    <menu id="apps-game-menu" />
+    <menu id="apps-fileman-menu" />
+    <!--> <separator label="System"/> <-->
+    <separator />
+    <item label="Выход">
+      <action name="Execute">
+        <execute>oblogout</execute>
+      </action>
+    </item>
+  </menu>
 </openbox_menu>

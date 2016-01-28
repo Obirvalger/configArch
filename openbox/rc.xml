@@ -879,21 +879,18 @@
     <!--> <application name="*">
   <fullscreen>yes</fullscreen>
   </application> <-->
-  <application class="Firefox*">
-    <fullscreen>yes</fullscreen>
-  </application>
-  
-  <application name="lxterminal">
-    <fullscreen>yes</fullscreen>
-  </application>
-
-  <application name="evince">
-    <fullscreen>yes</fullscreen>
-  </application>
-
-  <application name="llpp">
-    <fullscreen>yes</fullscreen>
-  </application>
+    <application class="Firefox*">
+      <fullscreen>yes</fullscreen>
+    </application>
+    <application name="lxterminal">
+      <fullscreen>yes</fullscreen>
+    </application>
+    <application name="evince">
+      <fullscreen>yes</fullscreen>
+    </application>
+    <application name="llpp">
+      <fullscreen>yes</fullscreen>
+    </application>
     <!--> <application class="steam">
     <fullscreen>no</fullscreen>
   </application> <-->

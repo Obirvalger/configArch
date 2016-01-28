@@ -17,7 +17,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
 alias du0='du -h --max-depth=0'
-alias du1='du -h --max-depth=1'
+alias du1='du -h --max-depth=1 | sort -h'
 alias pacman='sudo pacman'
 alias vzs='vim ~/.zshrc && source ~/.zshrc'
 alias ys='yaourt -Ss'
@@ -41,7 +41,7 @@ if [ -f /usr/bin/grc ]; then
 fi
 
 autoload -U colors && colors
-PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
+PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f %# ' #'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
 #PS1='$LINENO'
 RPROMPT="%(?..%F{red}%?)"
 setopt promptsubst
