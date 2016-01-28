@@ -5,3 +5,6 @@ FT_00_WD=
 FT_01_LB=_Собрать
 FT_01_CM=ghc --make "%f"
 FT_01_WD=
+EX_01_LB=Ghci
+EX_01_CM=ghci "%f"
+EX_01_WD=

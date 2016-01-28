@@ -275,6 +275,7 @@
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
+        <prompt>Вы уверены, что хотите запустить Steam?</prompt>
         <command>steam</command>
       </action>
     </keybind>
