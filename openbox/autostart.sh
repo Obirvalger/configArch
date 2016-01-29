@@ -2,7 +2,7 @@
 #guake &
 xset s off -dpms
 xbacklight = 30
-compton -zfc -D10 -e 0.9 -m 0.85 --shadow-blue 0.1 &
+compton -zfc -D10 -m 0.85 --shadow-blue 0.1 &
 feh --bg-scale ~/.config/.background 
 lxterminal &
 sleep 0.2

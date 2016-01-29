@@ -18,7 +18,8 @@ alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
 alias du0='du -h --max-depth=0'
 alias du1='du -h --max-depth=1 | sort -h'
-alias pacman='sudo pacman'
+#alias pacman='sudo pacman'
+alias maxima='rmaxima'
 alias vzs='vim ~/.zshrc && source ~/.zshrc'
 alias ys='yaourt -Ss'
 
