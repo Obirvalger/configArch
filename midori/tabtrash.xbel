@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xbel>
-<bookmark href="file:///home/ogneslav/tmp.pl.html">
-<title>/home/ogneslav/tmp.pl</title>
+<bookmark href="https://www.yandex.ru/">
+<title>Яндекс</title>
 <info>
-<metadata tabby-tstamp="1453894938" tabby-id="6" sorting="3072" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://www.google.ru/search?q=arch&amp;gws_rd=cr,ssl&amp;ei=W62oVp70OMfmyQORm6nYCg">
-<title>arch - Поиск в Google</title>
-<info>
-<metadata tabby-tstamp="1453894964" icon="https://www.google.ru/images/branding/product/ico/googleg_lodp.ico" sorting="2048" tabby-id="2" mime-type="text/html"/>
-</info>
-</bookmark>
-<bookmark href="https://www.archlinux.org/">
-<title>Arch Linux</title>
-<info>
-<metadata tabby-id="6" icon="https://d11xdyzr0div58.cloudfront.net/static/favicon.29302f683ff8.ico" sorting="3072" mime-type="text/html"/>
+<metadata tabby-tstamp="1454155174" tabby-id="9" sorting="4608" mime-type="text/html" history-step="update"/>
 </info>
 </bookmark>
 </xbel>

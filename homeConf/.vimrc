@@ -91,9 +91,9 @@ augroup END
 "Конец
 
 "Начало <Сохранить (F5)>
-    nmap <F5> :w<cr>
-    vmap <F5> <esc>:w<cr>
-    imap <F5> <esc>:w<cr>a
+    nmap <F5> :w!<cr>
+    vmap <F5> <esc>:w!<cr>
+    imap <F5> <esc>:w!<cr>a
 "Конец
 
 "Начало <Выйти из редактора без сохранения (F10)>

@@ -85,6 +85,16 @@ echo "'$1' не является допустимым файлом"
 fi
 }
 
+githubAdd () {
+    if (($# != 2)); then
+        echo "Using: $0 <username> <reponame>"
+    else
+        curl -u "$1" https://api.github.com/user/repos -d {\"name\":\"$2\"}
+        git remote add origin git@github.com:${1}/${2}.git
+        git push origin master
+    fi
+}
+
 gp () {
     msg=$(date +"%x %X")
     brn=$(git rev-parse --abbrev-ref HEAD)

@@ -230,7 +230,7 @@
     </keybind>
     <keybind key="W-a">
       <action name="Execute">
-        <command>llpp</command>
+        <command>evince</command>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -276,13 +276,38 @@
       </action>
     </keybind>
     <keybind key="W-p">
-      <action name="Execute">
+      <!--><action name="Execute">
         <command>audacious -t</command>
-      </action>
+      </action><-->
+      <keybind key="W-p">
+        <action name="Execute">
+          <command>audacious -mt</command>
+        </action>
+      </keybind>
+      <keybind key="p">
+        <action name="Execute">
+          <command>audacious -mt</command>
+        </action>
+      </keybind>
+      <keybind key="Down">
+        <action name="Execute">
+          <command>audacious -t</command>
+        </action>
+      </keybind>
+      <keybind key="Left">
+        <action name="Execute">
+          <command>audacious -Hr</command>
+        </action>
+      </keybind>
+      <keybind key="Right">
+        <action name="Execute">
+          <command>audacious -Hf</command>
+        </action>
+      </keybind>
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <command>codeblocks</command>
+        <command>steam steam://rungameid/240</command>
       </action>
     </keybind>
     <keybind key="W-u">
@@ -908,7 +933,7 @@
   <fullscreen>yes</fullscreen>
   </application> <-->
     <application class="*">
-        <decor>yes</decor>
+      <decor>yes</decor>
     </application>
     <application class="Firefox">
       <fullscreen>yes</fullscreen>
@@ -934,12 +959,12 @@
     <application type="dialog">
       <fullscreen>no</fullscreen>
     </application>
-    <application class="Pcmanfm">
+    <!--<application class="Pcmanfm">
       <position force="no">
         <x>center</x>
         <y>center</y>
       </position>
-    </application>
+    </application><-->
     <!--><application class="*">
       <position force="no">
         <x>center</x>

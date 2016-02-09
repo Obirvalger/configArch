@@ -1,7 +1,7 @@
 #synclient TouchpadOff=1
 #guake &
 xset s off -dpms
-xbacklight = 30
+#xbacklight = 30
 compton -zfc -D10 -m 0.85 --shadow-blue 0.1 &
 feh --bg-scale ~/.config/.background 
 lxterminal &
