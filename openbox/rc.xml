@@ -380,14 +380,24 @@
     </keybind>
     <keybind key="XF86KbdBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -5</command>
+        <command>~/.config/scripts/kb-light.py -</command>
       </action>
     </keybind>
     <keybind key="XF86KbdBrightnessUp">
       <action name="Execute">
-        <command>xbacklight +5</command>
+        <command>~/.config/scripts/kb-light.py +</command>
       </action>
     </keybind>
+    <!--<keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -5</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight +5</command>
+      </action>
+    </keybind>-->
     <keybind key="0xC7">
       <action name="Execute">
         <command>~/.config/touchpad.sh</command>
