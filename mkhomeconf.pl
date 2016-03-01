@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use File::Basename;
 
-my @files = glob "~/.config/homeConf/.* ~/.config/homeConf/*";
+my @files = glob "~/configArch/homeConf/.* ~/configArch/homeConf/*";
 
 
 foreach (@files) {
