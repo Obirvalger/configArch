@@ -316,12 +316,17 @@
       </action>
     </keybind>
     <keybind key="W-s">
-        <keybind key="W-c">
+        <keybind key="t">
+          <action name="Execute">
+            <command>steam steam://rungameid/440</command>
+          </action>
+        </keybind>
+        <keybind key="c">
           <action name="Execute">
             <command>steam steam://rungameid/240</command>
           </action>
         </keybind>
-        <keybind key="W-s">
+        <keybind key="s">
           <action name="Execute">
             <prompt>Вы уверены, что хотите запустить Steam?</prompt>
             <command>steam</command>
@@ -388,16 +393,16 @@
         <command>~/.config/scripts/kb-light.py +</command>
       </action>
     </keybind>
-    <!--<keybind key="XF86MonBrightnessDown">
+    <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -5</command>
+        <command>xbacklight - 10</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight +5</command>
+        <command>xbacklight + 10</command>
       </action>
-    </keybind>-->
+    </keybind>
     <keybind key="0xC7">
       <action name="Execute">
         <command>~/.config/touchpad.sh</command>
@@ -458,13 +463,13 @@
         <wrap>yes</wrap>
       </action>
     </keybind>-->
-    <keybind key="C-A-Up">
+    <keybind key="C-S-Left">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Down">
+    <keybind key="C-S-Right">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>yes</wrap>
@@ -971,7 +976,10 @@
       <fullscreen>yes</fullscreen>
     </application>
     <application name="gmrun">
-      <fullscreen>no</fullscreen>
+       <position force="yes">
+        <y>25%</y>
+        <x>center</x>
+      </position>
     </application>
     <application type="dialog">
       <fullscreen>no</fullscreen>
