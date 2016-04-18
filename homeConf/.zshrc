@@ -4,6 +4,7 @@ SAVEHIST=10000
 bindkey -e
 
 #zstyle ':prompt:grml:left:setup' items change-root user at host path vcs percent
+export PATH="$PATH:$HOME/.cabal/bin"
 
 unsetopt PRINT_EXIT_VALUE
 
@@ -51,7 +52,7 @@ if [ -f /usr/bin/grc ]; then
 fi
 
 autoload -U colors && colors
-PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f %# ' #'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
+PS1='%F{4}[%F{6}%i%F{4}] %F{5}%T%F{2} %~%f %# ' #'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
 #PS1='$LINENO'
 RPROMPT="%(?..%F{red}%?)"
 setopt promptsubst
@@ -94,12 +95,15 @@ echo "'$1' не является допустимым файлом"
 fi
 }
 
-githubAdd () {
+githubInit () {
     if (($# != 2)); then
         echo "Using: $0 <username> <reponame>"
     else
+        git init
         curl -u "$1" https://api.github.com/user/repos -d {\"name\":\"$2\"}
         git remote add origin git@github.com:${1}/${2}.git
+        git add -A
+        git commit -m "first commit"
         git push origin master
     fi
 }

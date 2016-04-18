@@ -1,5 +1,6 @@
 set number
-set tabstop=4
+set tabstop=2
+set ic
 "set clipboard=unnamedplus
 syntax on
 filetype plugin on

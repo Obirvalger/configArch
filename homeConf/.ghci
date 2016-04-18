@@ -1,1 +1,2 @@
 :set prompt "ghci> "
+:def hoogle \s -> return $ ":! hoogle --count=15 \"" ++ s ++ "\""
