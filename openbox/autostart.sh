@@ -10,6 +10,7 @@ sleep 0.2
 #killall mate-screensaver 
 setxkbmap -layout "us,ru(winkeys)" -model "pc105" -option "grp:alt_shift_toggle" &
 xxkb &
+/usr/lib/kdeconnectd &
 #killall ibus-daemon
 #firefox &
 yandex-disk start
