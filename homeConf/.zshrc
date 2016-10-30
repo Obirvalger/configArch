@@ -29,6 +29,15 @@ setopt promptsubst
 
 alias -s {pm,txt}=vim
 
+alias -g L='| less'
+alias -g G='| grep'
+alias -g GI='|grep -i'
+alias -g H='| head'
+alias -g T='| tail'
+alias -g S='| sort'
+alias -g SU='|sort -u'
+alias -g WC='| wc -l'
+
 alias man='man --prompt=""'
 alias pe='perl -pe'
 alias cp='cp -vir'
