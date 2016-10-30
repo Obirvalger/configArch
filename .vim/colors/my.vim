@@ -40,9 +40,9 @@ hi StatusLine	term=reverse cterm=reverse gui=reverse guifg=gray60
 hi StatusLineNC	term=reverse cterm=reverse gui=reverse guifg=gray40
 hi VertSplit	term=reverse cterm=reverse gui=bold,reverse guifg=gray40
 hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
-hi TabLineFill guifg=grey60 guibg=DarkGreen
-hi TabLine gui=bold guifg=black guibg=grey60
-hi TabLineSel guifg=gray60 guibg=black
+hi TabLineFill guifg=black guibg=DarkGreen
+hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
+hi TabLineSel guifg=lightblue4 guibg=royalblue4
 
 " syntax hi colors
 hi Comment	term=bold ctermfg=darkgrey guifg=grey30
