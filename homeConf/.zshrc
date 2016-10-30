@@ -1,19 +1,40 @@
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
+
 bindkey -e
 
+zstyle ':completion:*' rehash true
 #zstyle ':prompt:grml:left:setup' items change-root user at host path vcs percent
-export PATH="$PATH:$HOME/.cabal/bin"
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 unsetopt PRINT_EXIT_VALUE
+setopt hist_ignore_all_dups
+setopt extended_history
+#setopt share_history
+setopt hist_ignore_space
 
-alias cp='cp -vr'
-alias mv='mv -v'
+autoload -Uz compinit
+compinit
+autoload -Uz promptinit
+promptinit
+prompt off
+autoload -U colors && colors
+PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
+#PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f %# '
+#'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
+#PS1='$LINENO'
+RPROMPT="%(?..%F{red}%?)"
+setopt promptsubst
+
+alias -s {pm,txt}=vim
+
+alias man='man --prompt=""'
+alias pe='perl -pe'
+alias cp='cp -vir'
+alias mv='mv -vi'
 alias rm='rm -v'
 alias ln='ln -v'
-alias ls='ls --color=auto'
-alias dir='dir --color=auto'
 alias mkdir='mkdir -p -v'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -21,25 +42,15 @@ alias egrep='egrep --color=auto'
 alias sudo="sudo -E"
 alias du0='du -h --max-depth=0'
 alias du1='du -h --max-depth=1 | sort -h'
+alias df='df -h'
 #alias pacman='sudo pacman'
 alias maxima='rmaxima'
 alias vzs='vim ~/.zshrc && source ~/.zshrc'
 alias ys='yaourt -Ss'
+#alias sage='nice sage'
+#alias perl6='rlwrap perl6'
 
 export EDITOR="vim"
-
-autoload -U up-line-or-beginning-search
-autoload -U down-line-or-beginning-search
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-bindkey "^[[A" up-line-or-beginning-search # Up
-bindkey "^[[B" down-line-or-beginning-search # Down
-
-autoload -Uz compinit
-compinit
-autoload -Uz promptinit
-promptinit
-prompt off
 
 if [ -f /usr/bin/grc ]; then
  alias gcc="grc --colour=auto gcc"
@@ -51,11 +62,6 @@ if [ -f /usr/bin/grc ]; then
  alias traceroute="grc --colour=auto traceroute"
 fi
 
-autoload -U colors && colors
-PS1='%F{4}[%F{6}%i%F{4}] %F{5}%T%F{2} %~%f %# ' #'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
-#PS1='$LINENO'
-RPROMPT="%(?..%F{red}%?)"
-setopt promptsubst
 ex () {
  if [ -f $1 ] ; then
    case $1 in
@@ -95,15 +101,16 @@ echo "'$1' не является допустимым файлом"
 fi
 }
 
-githubInit () {
+math () {
+    perl -Mbignum -le "print $1"
+}
+
+githubAdd () {
     if (($# != 2)); then
         echo "Using: $0 <username> <reponame>"
     else
-        git init
         curl -u "$1" https://api.github.com/user/repos -d {\"name\":\"$2\"}
         git remote add origin git@github.com:${1}/${2}.git
-        git add -A
-        git commit -m "first commit"
         git push origin master
     fi
 }
