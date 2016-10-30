@@ -8,11 +8,15 @@ zstyle ':completion:*' rehash true
 #zstyle ':prompt:grml:left:setup' items change-root user at host path vcs percent
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-unsetopt PRINT_EXIT_VALUE
+#setopt correct_all
+#sprompt="zsh: correct '%r' to '%r'? [nyae]?"
+setopt no_check_jobs
 setopt hist_ignore_all_dups
 setopt extended_history
 #setopt share_history
 setopt hist_ignore_space
+
+autoload -U zcalc
 
 autoload -Uz compinit
 compinit
@@ -24,11 +28,14 @@ PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
 #PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f %# '
 #'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
 #PS1='$LINENO'
-RPROMPT="%(?..%F{red}%?)"
-setopt promptsubst
+#RPROMPT="%(?..%F{red}%?)"
+#setopt promptsubst
 
 alias -s {pm,txt}=vim
 
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g BG='& exit' 
 alias -g L='| less'
 alias -g G='| grep'
 alias -g GI='|grep -i'
@@ -36,8 +43,11 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g S='| sort'
 alias -g SU='|sort -u'
-alias -g WC='| wc -l'
+alias -g C='| wc -l'
+alias -g V='|& vim -'
+alias -g H='| head'
 
+alias vim='vim -p'
 alias man='man --prompt=""'
 alias pe='perl -pe'
 alias cp='cp -vir'
