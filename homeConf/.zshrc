@@ -13,7 +13,7 @@ zstyle ':completion:*' rehash true
 setopt no_check_jobs
 setopt hist_ignore_all_dups
 setopt extended_history
-#setopt share_history
+unsetopt share_history
 setopt hist_ignore_space
 
 autoload -U zcalc
@@ -35,6 +35,7 @@ alias -s {pm,txt}=vim
 
 alias -g ...='../..'
 alias -g ....='../../..'
+alias -g D='2> /dev/null'
 alias -g BG='& exit' 
 alias -g L='| less'
 alias -g G='| grep'
@@ -46,6 +47,8 @@ alias -g SU='|sort -u'
 alias -g C='| wc -l'
 alias -g V='|& vim -'
 alias -g H='| head'
+alias -g H1='| head -n1'
+alias -g H2='| head -n2'
 
 alias vim='vim -p'
 alias man='man --prompt=""'
@@ -55,9 +58,9 @@ alias mv='mv -vi'
 alias rm='rm -v'
 alias ln='ln -v'
 alias mkdir='mkdir -p -v'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
+alias grep='grep -n --color=auto'
+alias fgrep='fgrep -n --color=auto'
+alias egrep='egrep -n --color=auto'
 alias sudo="sudo -E"
 alias du0='du -h --max-depth=0'
 alias du1='du -h --max-depth=1 | sort -h'
