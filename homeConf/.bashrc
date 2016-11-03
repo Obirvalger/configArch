@@ -139,6 +139,7 @@ alias parallel='parallel --no-notice'
 #DEVEL_REPL_PROFILE=~/.re.pl/profile
 #PERL_MB_OPT="--install_base \"/home/ogneslav/perl5\""; export PERL_MB_OPT;
 #PERL_MM_OPT="INSTALL_BASE=/home/ogneslav/perl5"; export PERL_MM_OPT;
+archey3
 
 PATH="/home/ogneslav/perl5/bin${PATH+:}${PATH}"; export PATH;
 PERL5LIB="/home/ogneslav/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;
