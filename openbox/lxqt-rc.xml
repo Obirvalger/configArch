@@ -381,14 +381,24 @@
         <command>audacious -s</command>
       </action>
     </keybind>
+    <keybind key="XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>~/.config/scripts/kb-light.py -</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>~/.config/scripts/kb-light.py +</command>
+      </action>
+    </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -5</command>
+        <command>xbacklight -dec 5</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight +5</command>
+        <command>xbacklight -inc 5</command>
       </action>
     </keybind>
     <keybind key="0xC7">
@@ -398,17 +408,17 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer set Master 5%+ unmute</command>
+        <command>pamixer -ui 5</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer set Master 5%- unmute</command>
+        <command>pamixer -ud 5</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer set Master toggle</command>
+        <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="A-F11">

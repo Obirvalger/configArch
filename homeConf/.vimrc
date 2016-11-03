@@ -100,9 +100,9 @@ vnoremap <S-Tab> <gv
 "Начало <Сохранить>
     imap <c-s> <Esc> :w! <CR>
     map <c-s> :w! <CR>
-    "nmap <F5> :w!<cr>
-    "vmap <F5> <esc>:w!<cr>
-    "imap <F5> <esc>:w!<cr>a
+    nmap <F5> :w!<cr>
+    vmap <F5> <esc>:w!<cr>
+    imap <F5> <esc>:w!<cr>a
 "Конец
 
 "Начало <Выйти из редактора без сохранения>
