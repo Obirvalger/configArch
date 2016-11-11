@@ -58,7 +58,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>DejaVu Sans</name>
-      <size>10</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -67,7 +67,7 @@
     </font>
     <font place="InactiveWindow">
       <name>Sans</name>
-      <size>9</size>
+      <size>11</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -76,7 +76,7 @@
     </font>
     <font place="MenuHeader">
       <name>DejaVu Sans</name>
-      <size>11</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>Liberation Sans</name>
-      <size>11</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -120,7 +120,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>2</number>
+    <number>3</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>first</name>
@@ -226,6 +226,11 @@
     <keybind key="W-b">
       <action name="Execute">
         <command>qupzilla</command>
+      </action>
+    </keybind>
+    <keybind key="W-z">
+      <action name="Execute">
+        <command>~/.config/scripts/Zorin.sh</command>
       </action>
     </keybind>
     <keybind key="W-a">

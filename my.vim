@@ -13,14 +13,14 @@ endif
 let g:colors_name = "my"
 
 " General colors
-hi Normal	ctermfg=black guifg=gray80 guibg=black
+hi Normal	ctermfg=gray guifg=gray80 guibg=black
 hi Directory	term=bold ctermfg=blue guifg=royalblue
 hi ErrorMsg	term=standout ctermfg=white ctermbg=red guifg=white guibg=red3
 hi NonText	term=bold ctermfg=darkgray guibg=black guifg=gray20
 hi SpecialKey	term=bold ctermfg=darkgray guifg=white
 hi LineNr	term=underline ctermfg=darkgray guifg=ivory4 guibg=black
-hi IncSearch	term=reverse cterm=reverse gui=reverse,bold guifg=darkgoldenrod2
-hi Search	term=reverse ctermfg=black ctermbg=yellow guifg=gray10 guibg=gold2
+hi IncSearch	term=reverse cterm=reverse gui=reverse,bold guifg=purple1
+hi Search	term=reverse ctermfg=black ctermbg=yellow guifg=gray10 guibg=purple4
 hi Visual	term=bold,reverse cterm=bold,reverse ctermfg=gray ctermbg=black gui=bold,reverse guifg=gray40 guibg=black
 hi VisualNOS	term=bold,underline cterm=bold,underline gui=bold,underline
 hi MoreMsg	term=bold ctermfg=green gui=bold guifg=olivedrab1
@@ -30,7 +30,7 @@ hi WarningMsg	term=standout ctermfg=red gui=bold guifg=red3
 hi WildMenu	term=standout ctermfg=black ctermbg=black guifg=black guibg=black
 hi Folded	term=standout ctermfg=blue ctermbg=black guifg=royalblue1 guibg=black
 hi FoldColumn	term=standout ctermfg=blue ctermbg=black guifg=royalblue3 guibg=black
-hi DiffAdd	term=bold ctermbg=blue guibg=royalblue2
+hi DiffAdd	term=bold ctermbg=blue guibg=gold3
 hi DiffChange	term=bold ctermbg=darkmagenta guibg=maroon
 hi DiffDelete	term=bold cterm=bold ctermfg=lightblue ctermbg=cyan gui=bold guifg=lightblue guibg=cyan4
 hi DiffText	term=reverse cterm=bold ctermbg=red gui=bold guibg=red3
@@ -43,6 +43,7 @@ hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
 hi TabLineFill guifg=black guibg=DarkGreen
 hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
 hi TabLineSel guifg=lightblue4 guibg=royalblue4
+hi ColorColumn ctermbg=grey guibg=grey10
 
 " syntax hi colors
 hi Comment	term=bold ctermfg=darkgrey guifg=grey30
