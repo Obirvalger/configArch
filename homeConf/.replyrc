@@ -1,0 +1,37 @@
+script_line1 = use strict
+;[AutoRefresh]
+;track_require = 1
+
+script_line2 = no strict "vars";
+;script_line3 = use warnings
+script_line4 = use 5.024000
+
+[ReadLine]
+history_file = '.plhist'
+history_length = 10000
+
+[LoadClass]
+
+[Editor]
+editor=vim
+
+[Pager]
+pager=vimpager
+
+[Interrupt]
+[Timer]
+[FancyPrompt]
+;[DataDumper]
+[DataPrinter]
+[Colors]
+[Hints]
+[Packages]
+[LexicalPersistence]
+;[ResultCache]
+[Autocomplete::Globals]
+[Autocomplete::Keywords]
+[Autocomplete::Lexicals]
+[Autocomplete::Methods]
+[Autocomplete::Packages]
+[Autocomplete::Functions]
+[Autocomplete::Commands]
