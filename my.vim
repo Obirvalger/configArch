@@ -43,7 +43,8 @@ hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
 hi TabLineFill guifg=black guibg=DarkGreen
 hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
 hi TabLineSel guifg=lightblue4 guibg=royalblue4
-hi ColorColumn ctermbg=grey guibg=grey10
+hi ColorColumn ctermbg=grey guibg=#050705
+hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#0F0A00
 
 " syntax hi colors
 hi Comment	term=bold ctermfg=darkgrey guifg=grey30

@@ -1,8 +1,60 @@
 set nocompatible
+"filetype off
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+
+"Plugin 'VundleVim/Vundle.vim'
+
+"Plugin 'vim-perl/vim-perl', { 'for': 'perl', 'do': 
+"\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
+
+"Plugin 'ervandew/supertab'
+
+"Plugin 'WolfgangMehner/vim-plugins'
+
+filetype plugin indent on
+call plug#begin('~/.vim/plugged')
+"Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 
+"\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
+
+Plug 'WolfgangMehner/vim-plugins'
+
+Plug 'Valloric/YouCompleteMe'
+
+"Plug 'ervandew/supertab'
+call plug#end()
+let g:Perl_PerlTags = 'on'
+set showtabline=2
 set number
 set tabstop=4
 set shiftwidth=4
-"nnoremap / /\c
+set startofline
+" Do not automatically insert the current comment leader after an enter.
+set fo-=r 
+set fo-=o 
+
+function! Smart_TabComplete()
+  let line = getline('.')                         " current line
+
+  let substr = strpart(line, -1, col('.')+1)      " from the start of the current
+                                                  " line to one character right
+                                                  " of the cursor
+  let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
+  if (strlen(substr)==0)                          " nothing to match on empty string
+    return "\<tab>"
+  endif
+  let has_period = match(substr, '\.') != -1      " position of period, if any
+  let has_slash = match(substr, '\/') != -1       " position of slash, if any
+  if (!has_period && !has_slash)
+    return "\<C-X>\<C-P>"                         " existing text matching
+  elseif ( has_slash )
+    return "\<C-X>\<C-F>"                         " file matching
+  else
+    return "\<C-X>\<C-O>"                         " plugin matching
+  endif
+endfunction
+"inoremap <tab> <c-r>=Smart_TabComplete()<CR>
+
 "nnoremap ? ?\c
 "set ignorecase
 set noruler
@@ -15,8 +67,8 @@ colorscheme my
 "set clipboard=unnamedplus
 "set mp=./run.sh
 syntax on
-filetype plugin on
-filetype indent on
+"filetype plugin on
+"filetype indent on
     "ab #i #include
 "echo ">^.^<"
 "set autowrite
@@ -50,6 +102,7 @@ set expandtab
 " endfunction
 set smartindent 
 
+"let g:Perl_MapLeader  = ','
 
 "set hlsearch
 "set ignorecase
@@ -78,8 +131,10 @@ set smartindent
 "Перемещение
 imap <A-down> <Esc> <C-E> <S-M>
 map <A-down> <C-E> <S-M>
+map <down> <C-E> <S-M>
 imap <A-up> <Esc> <C-Y> <S-M>
 map <A-up> <C-Y> <S-M>
+map <up> <C-Y> <S-M>
 
 "Работа с вкладками
 imap <c-n> <Esc>:tabnew<CR>

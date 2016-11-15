@@ -225,7 +225,7 @@
     </keybind>
     <keybind key="W-b">
       <action name="Execute">
-        <command>qupzilla</command>
+        <command>firefox</command>
       </action>
     </keybind>
     <keybind key="W-z">
@@ -965,6 +965,9 @@
     </application>
     <application class="Midori">
       <decor>no</decor>
+    </application>
+    <application name="gvim">
+      <maximized>yes</maximized>
     </application>
     <application class="qterminal">
       <maximized>yes</maximized>
