@@ -131,10 +131,10 @@ set smartindent
 "Перемещение
 imap <A-down> <Esc> <C-E> <S-M>
 map <A-down> <C-E> <S-M>
-map <down> <C-E> <S-M>
+"map <down> <C-E> <S-M>
 imap <A-up> <Esc> <C-Y> <S-M>
 map <A-up> <C-Y> <S-M>
-map <up> <C-Y> <S-M>
+"map <up> <C-Y> <S-M>
 
 "Работа с вкладками
 imap <c-n> <Esc>:tabnew<CR>

@@ -163,12 +163,7 @@ gp () {
 }
 
 yi () {
-    d=$(pwd)
-    cd ~/builds
-    yaourt -Ga $1
-    cd $1
-    makepkg -sri 
-    cd $d
+    yaourt --noconfirm --m-arg "--skipchecksums" --m-arg "--skippgpcheck" -Sb $1
 }
 
 # Set name of the theme to load. Optionally, if you set this to "random"
