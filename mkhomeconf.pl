@@ -6,6 +6,7 @@ use File::Basename;
 
 my @files = glob "~/configArch/homeConf/.* ~/configArch/homeConf/*";
 
+print "@{[map {basename $_} @files[2..$#files]]}\n";
 
 foreach (@files) {
     my $file = basename $_;
