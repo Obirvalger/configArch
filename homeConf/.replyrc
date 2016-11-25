@@ -2,9 +2,10 @@ script_line1 = use strict
 ;[AutoRefresh]
 ;track_require = 1
 
-script_line2 = no strict "vars";
-;script_line3 = use warnings
-script_line4 = use 5.024000
+script_line2 = no strict "vars"
+script_line3 = use warnings
+script_line3 = use Math::Prime::Util qw(:all)
+script_line5 = use 5.024000
 
 [ReadLine]
 history_file = '.plhist'

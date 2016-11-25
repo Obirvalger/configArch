@@ -24,9 +24,17 @@ set noruler
 set showcmd
 set incsearch
 set wrapscan
-set termguicolors
-set colorcolumn=80
-colorscheme my
+"if &term=~'linux'
+if &term=~'xterm'
+    set termguicolors
+endif
+
+try
+    colorscheme my
+    set colorcolumn=80
+catch /^Vim\%((\a\+)\)\=:E185/
+    colorscheme default
+endtry
 "set clipboard=unnamedplus
 "set mp=./run.sh
 syntax on
@@ -85,7 +93,7 @@ set smartindent
 "    autocmd FileType cpp :iabbrev <buffer> if if () {<cr><cr>}<up><up><right><right>
 "augroup END
 
-"inoremap" jk <esc>
+inoremap jk <esc>
 
 "inoremap <tab> <c-r>=InsertTabWrapper ("forward")<cr>
 "inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>

@@ -52,14 +52,14 @@ hi PreProc	term=underline ctermfg=darkblue guifg=dodgerblue4
 hi Constant	term=underline ctermfg=darkred guifg=firebrick3
 hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
 hi Statement	term=bold ctermfg=darkcyan gui=bold guifg=darkcyan
-hi Identifier	term=underline ctermfg=darkgreen guifg=slateblue
+hi Identifier	term=underline ctermfg=blue guifg=slateblue
 hi Ignore	term=bold ctermfg=darkgray guifg=gray45
 hi Special	term=underline ctermfg=brown guifg=sienna4
 hi Error	term=reverse ctermfg=gray ctermbg=red guifg=gray guibg=red3
 hi Todo		term=standout ctermfg=black ctermbg=yellow gui=bold guifg=gray10 guibg=yellow4
 hi Underlined	term=underline cterm=underline ctermfg=darkblue gui=underline guifg=slateblue
-hi Number	term=underline ctermfg=darkred guifg=green4
-hi String	guifg=darkolivegreen
+hi Number	term=underline ctermfg=darkgreen guifg=green4
+hi String	ctermfg=darkyellow guifg=darkolivegreen
 hi Boolean  guifg=darkgreen
 " syntax hi links
 hi link Character	Constant
