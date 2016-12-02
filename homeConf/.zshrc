@@ -12,7 +12,7 @@ zstyle ':completion:*' rehash true
 #source /usr/share/zsh/scripts/antigen/antigen.zsh
 #antigen use oh-my-zsh
 
-#setopt correct_all
+setopt correct_all
 #sprompt="zsh: correct '%r' to '%r'? [nyae]?"
 setopt no_check_jobs
 setopt hist_ignore_all_dups
@@ -89,6 +89,7 @@ alias nl='nl -ba'
 #alias pacman='sudo pacman'
 alias maxima='rmaxima'
 alias vzs='vim ~/.zshrc && source ~/.zshrc'
+alias pltags='/usr/share/vim/vim80/tools/pltags.pl'
 #alias ys='yaourt -Ss'
 #alias sage='nice sage'
 #alias perl6='rlwrap perl6'
