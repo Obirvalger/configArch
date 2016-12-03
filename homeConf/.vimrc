@@ -52,10 +52,10 @@ syntax on
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 \ exe "normal! g'\"" | endif
 
-set clipboard+=unnamed 
+set clipboard+=unnamedplus
 set mouse=a
-"map <S-Insert> <MiddleMouse>
-"map! <S-Insert> <MiddleMouse>
+map <S-Insert> <MiddleMouse>
+map! <S-Insert> <MiddleMouse>
 set noswapfile
 "set nowrap
 "set matchtime=3

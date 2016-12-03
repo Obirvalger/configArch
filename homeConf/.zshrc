@@ -69,7 +69,13 @@ alias -g H1='| head -n1'
 alias -g H2='| head -n2'
 alias -g N='| nl -ba'
 
-alias vim='vim -p'
+if [[ -f .vimrc ]]
+then
+    alias vim='vimx -p'
+else
+    alias vim='vim -p'
+fi
+
 alias man='man --prompt=""'
 alias pe='perl -pe'
 alias cp='cp -Lvir'
