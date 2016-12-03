@@ -1,0 +1,1 @@
+/home/ogneslav/configArch/my.vim

@@ -3,8 +3,8 @@ set nocompatible
 "    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 filetype plugin indent on
 call plug#begin('~/.vim/plugged')
-Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 
-\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
+"Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 
+"\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
 Plug 'WolfgangMehner/vim-plugins'
 
