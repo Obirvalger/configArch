@@ -12,7 +12,8 @@ zstyle ':completion:*' rehash true
 #source /usr/share/zsh/scripts/antigen/antigen.zsh
 #antigen use oh-my-zsh
 
-setopt correct_all
+unsetopt correct_all
+setopt correct
 #sprompt="zsh: correct '%r' to '%r'? [nyae]?"
 setopt no_check_jobs
 setopt hist_ignore_all_dups
@@ -253,3 +254,5 @@ yi () {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
+stty -ixon
