@@ -7,7 +7,7 @@
 " Colorscheme Option:
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 hi clear
-if exists("syntax on")
+if exists("syntax off")
 	syntax reset
 endif
 let g:colors_name = "my"
