@@ -4,7 +4,11 @@ SAVEHIST=10000
 
 bindkey -e
 
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+
 export PATH=$HOME/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin:$PATH
+
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 zstyle ':completion:*' rehash true
 #zstyle ':prompt:grml:left:setup' items change-root user at host path vcs percent
@@ -35,6 +39,7 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "\e[A" history-beginning-search-backward-end
 bindkey "\e[B" history-beginning-search-forward-end
 
+zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
 autoload -U zcalc
 autoload -Uz compinit
 compinit
@@ -69,14 +74,14 @@ alias -g H1='| head -n1'
 alias -g H2='| head -n2'
 alias -g N='| nl -ba'
 
-if [[ -f .vimrc ]]
+if [[ -f /usr/bin/vimx ]]
 then
     alias vim='vimx -p'
 else
     alias vim='vim -p'
 fi
 
-alias man='man --prompt=""'
+#alias man='man --prompt=""'
 alias pe='perl -pe'
 alias cp='cp -Lvir'
 alias mv='mv -vi'
@@ -103,15 +108,25 @@ alias pltags='/usr/share/vim/vim80/tools/pltags.pl'
 
 export EDITOR="vim"
 
-if [ -f /usr/bin/grc ]; then
- alias gcc="grc --colour=auto gcc"
- alias irclog="grc --colour=auto irclog"
- alias log="grc --colour=auto log"
- alias netstat="grc --colour=auto netstat"
- alias ping="grc --colour=auto ping"
- alias proftpd="grc --colour=auto proftpd"
- alias traceroute="grc --colour=auto traceroute"
-fi
+export LESS_TERMCAP_mb=$(printf '\e[01;31m') # enter blinking mode - red
+export LESS_TERMCAP_md=$(printf '\e[01;35m') # enter double-bright mode - bold, magenta
+export LESS_TERMCAP_me=$(printf '\e[0m') # turn off all appearance modes (mb, md, so, us)
+export LESS_TERMCAP_se=$(printf '\e[0m') # leave standout mode    
+export LESS_TERMCAP_so=$(printf '\e[01;33m') # enter standout mode - yellow
+export LESS_TERMCAP_ue=$(printf '\e[0m') # leave underline mode
+export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode - cyan
+
+ man() {
+    env LESS_TERMCAP_mb=$'\E[01;31m' \
+    LESS_TERMCAP_md=$'\E[01;34m' \
+    LESS_TERMCAP_me=$'\E[0m' \
+    LESS_TERMCAP_se=$'\E[0m' \
+    LESS_TERMCAP_so=$'\E[01;33;40m' \
+    LESS_TERMCAP_ue=$'\E[0m' \
+    LESS_TERMCAP_us=$'\E[01;04;35m' \
+    man "$@"
+}
+
 
 ex () {
  if [ -f $1 ] ; then
@@ -262,3 +277,9 @@ yi () {
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
+
+PATH="/home/ogneslav/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/ogneslav/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/ogneslav/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/ogneslav/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/ogneslav/perl5"; export PERL_MM_OPT;
