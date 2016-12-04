@@ -93,7 +93,7 @@ alias mkdir='mkdir -p -v'
 alias grep='grep --color=auto'
 alias fgrep='fgrep -n --color=auto'
 alias egrep='egrep -n --color=auto'
-alias sudo="sudo -E"
+alias sudo="sudo -E "
 alias du0='du -h --max-depth=0'
 alias du1='du -h --max-depth=1 | sort -h'
 alias df='df -h'
