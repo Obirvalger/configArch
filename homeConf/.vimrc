@@ -12,7 +12,7 @@ Plug 'Valloric/YouCompleteMe'
 
 "Plug 'ervandew/supertab'
 call plug#end()
-"let g:Perl_PerlTags = 'on'
+let g:Perl_PerlTags = 'on'
 set showtabline=2
 set number
 set tabstop=4
