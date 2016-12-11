@@ -76,8 +76,10 @@ alias -g N='| nl -ba'
 
 if [[ -f /usr/bin/vimx ]]
 then
+    #echo lol
     alias vim='vimx -p'
 else
+    #echo lil
     alias vim='vim -p'
 fi
 

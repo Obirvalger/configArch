@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>My</name>
+    <name>Onyx-black</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -58,7 +58,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>DejaVu Sans</name>
-      <size>10</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -67,7 +67,7 @@
     </font>
     <font place="InactiveWindow">
       <name>Sans</name>
-      <size>9</size>
+      <size>11</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -76,7 +76,7 @@
     </font>
     <font place="MenuHeader">
       <name>DejaVu Sans</name>
-      <size>11</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>Liberation Sans</name>
-      <size>11</size>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -228,9 +228,14 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <keybind key="W-z">
+      <action name="Execute">
+        <command>~/.config/scripts/Zorin.sh</command>
+      </action>
+    </keybind>
     <keybind key="W-a">
       <action name="Execute">
-        <command>evince</command>
+        <command>okular</command>
       </action>
     </keybind>
     <keybind key="W-g">
@@ -240,7 +245,7 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>pcmanfm-qt</command>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -267,12 +272,12 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>xterm -fa 'mono' -fs 14 -fullscreen</command>
+        <command>xterm</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>lxterminal</command>
+        <command>qterminal</command>
       </action>
     </keybind>
     <keybind key="W-p">
@@ -307,8 +312,11 @@
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
-        <command>atom</command>
+        <command>kate</command>
       </action>
+      <!--><action name="Execute">
+        <command>guake</command>
+      </action><-->
     </keybind>
     <keybind key="W-u">
       <action name="Execute">
@@ -316,26 +324,21 @@
       </action>
     </keybind>
     <keybind key="W-s">
-        <keybind key="t">
-          <action name="Execute">
-            <command>steam steam://rungameid/440</command>
-          </action>
-        </keybind>
-        <keybind key="c">
-          <action name="Execute">
-            <command>steam steam://rungameid/240</command>
-          </action>
-        </keybind>
-        <keybind key="s">
-          <action name="Execute">
-            <prompt>Вы уверены, что хотите запустить Steam?</prompt>
-            <command>steam</command>
-          </action>
-        </keybind>
+      <keybind key="W-c">
+        <action name="Execute">
+          <command>steam steam://rungameid/240</command>
+        </action>
+      </keybind>
+      <keybind key="W-s">
+        <action name="Execute">
+          <prompt>Вы уверены, что хотите запустить Steam?</prompt>
+          <command>steam</command>
+        </action>
+      </keybind>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>gmrun</command>
+        <command>lxqt-runner</command>
       </action>
     </keybind>
     <keybind key="W-w">
@@ -395,32 +398,32 @@
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight - 10</command>
+        <command>xbacklight -dec 5</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight + 10</command>
+        <command>xbacklight -inc 5</command>
       </action>
     </keybind>
     <keybind key="0xC7">
       <action name="Execute">
-        <command>~/.config/touchpad.sh</command>
+        <command>~/.config/scripts/touchpad.sh</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>amixer set Master 5%+ unmute</command>
+        <command>pamixer -ui 5</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>amixer set Master 5%- unmute</command>
+        <command>pamixer -ud 5</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>amixer set Master toggle</command>
+        <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="A-F11">
@@ -463,13 +466,13 @@
         <wrap>yes</wrap>
       </action>
     </keybind>-->
-    <keybind key="C-S-Left">
+    <keybind key="C-A-Up">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>yes</wrap>
       </action>
     </keybind>
-    <keybind key="C-S-Right">
+    <keybind key="C-A-Down">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>yes</wrap>
@@ -958,13 +961,16 @@
       <decor>yes</decor>
     </application>
     <application class="Firefox">
-      <fullscreen>yes</fullscreen>
+      <fullscreen>no</fullscreen>
     </application>
     <application class="Midori">
       <decor>no</decor>
     </application>
-    <application name="lxterminal">
-      <fullscreen>yes</fullscreen>
+    <application name="gvim">
+      <maximized>yes</maximized>
+    </application>
+    <application class="qterminal">
+      <maximized>yes</maximized>
     </application>
     <application name="evince">
       <fullscreen>yes</fullscreen>
@@ -976,13 +982,11 @@
       <fullscreen>yes</fullscreen>
     </application>
     <application name="gmrun">
-       <position force="yes">
-        <y>25%</y>
-        <x>center</x>
-      </position>
+      <fullscreen>no</fullscreen>
     </application>
     <application type="dialog">
       <fullscreen>no</fullscreen>
+      <maximized>no</maximized>
     </application>
     <!--<application class="Pcmanfm">
       <position force="no">
