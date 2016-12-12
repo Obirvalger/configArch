@@ -10,9 +10,16 @@ Plug 'WolfgangMehner/vim-plugins'
 
 Plug 'Valloric/YouCompleteMe'
 
+Plug 'Scrooloose/nerdcommenter'
+
+Plug 'Othree/eregex.vim'
+
 "Plug 'ervandew/supertab'
 call plug#end()
 let g:Perl_PerlTags = 'on'
+"let g:Perl_InsertFileHeader = 'no'
+let g:eregex_default_enable = 1
+iabbrev #i #include
 set showtabline=2
 set number
 set tabstop=4
@@ -108,8 +115,8 @@ map <A-up> <C-Y> <S-M>
 "map <up> <C-Y> <S-M>
 
 "Работа с вкладками
-imap <c-n> <Esc>:tabnew<CR>
-map <c-n> <Esc>:tabnew<CR>
+"imap <c-n> <Esc>:tabnew<CR>
+"map <c-n> <Esc>:tabnew<CR>
 imap <c-o> <Esc>:browse tabnew<CR>
 nmap <c-o> <Esc>:browse tabnew<CR>
 imap <A-left> <Esc> :tabprev <CR>
@@ -126,8 +133,8 @@ map <A-right> :tabnext <CR>
 "nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 "nnoremap <leader>sv :source $MYVIMRC<cr>
 "nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
-inoremap <c-e> <esc>$a
-inoremap <c-a> <esc>^i
+"inoremap <c-e> <esc>$a
+"inoremap <c-a> <esc>^i
 "nnoremap <c-e> $a
 "nnoremap <c-a> ^i
 
