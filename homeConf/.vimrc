@@ -18,7 +18,7 @@ Plug 'Othree/eregex.vim'
 call plug#end()
 let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
-let g:eregex_default_enable = 1
+let g:eregex_default_enable = 0
 iabbrev #i #include
 set showtabline=2
 set number
