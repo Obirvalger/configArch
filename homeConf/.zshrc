@@ -39,11 +39,17 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "\e[A" history-beginning-search-backward-end
 bindkey "\e[B" history-beginning-search-forward-end
 
+#export LS_COLORS='di=38;5;108:fi=00:ln=38;5;116:ex=38;5;186'
+#export LSCOLORS='ExGxFxdxCxEgEdHbagacad'
+
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
+zstyle ':completion:*' menu select
 autoload -U zcalc
-autoload -Uz compinit
+autoload -Uz compinit promptinit
+autoload -U colors zsh/terminfo
+colors
 compinit
-autoload -Uz promptinit
 promptinit
 prompt off
 autoload -U colors && colors
