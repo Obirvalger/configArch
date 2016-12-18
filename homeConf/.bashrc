@@ -146,3 +146,5 @@ PERL5LIB="/home/ogneslav/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5L
 PERL_LOCAL_LIB_ROOT="/home/ogneslav/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/ogneslav/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/ogneslav/perl5"; export PERL_MM_OPT;
+
+export QSYS_ROOTDIR="/home/ogneslav/intelFPGA_lite/16.1/quartus/sopc_builder/bin"

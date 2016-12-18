@@ -36,14 +36,26 @@ autoload -U history-search-end
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
 
+# ctrl-v + arrow to find exact key code
+
 bindkey "\e[A" history-beginning-search-backward-end
 bindkey "\e[B" history-beginning-search-forward-end
+bindkey "^[[A" history-beginning-search-backward-end
+bindkey "^[[B" history-beginning-search-forward-end
+bindkey "^[OA" history-beginning-search-backward-end
+bindkey "^[OB" history-beginning-search-forward-end
 
+#export LS_COLORS='di=38;5;108:fi=00:ln=38;5;116:ex=38;5;186'
+#export LSCOLORS='ExGxFxdxCxEgEdHbagacad'
+
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
+zstyle ':completion:*' menu select
 autoload -U zcalc
-autoload -Uz compinit
+autoload -Uz compinit promptinit
+autoload -U colors zsh/terminfo
+colors
 compinit
-autoload -Uz promptinit
 promptinit
 prompt off
 autoload -U colors && colors
@@ -76,8 +88,10 @@ alias -g N='| nl -ba'
 
 if [[ -f /usr/bin/vimx ]]
 then
+    #echo lol
     alias vim='vimx -p'
 else
+    #echo lil
     alias vim='vim -p'
 fi
 
@@ -278,8 +292,9 @@ yi () {
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-PATH="/home/ogneslav/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/ogneslav/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/ogneslav/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/ogneslav/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/ogneslav/perl5"; export PERL_MM_OPT;
+PATH="/home/obirvalger/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PATH="/home/obirvalger/intelFPGA_lite/16.1/quartus/bin:${PATH}"; export PATH;
+PERL5LIB="/home/obirvalger/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/obirvalger/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/obirvalger/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/obirvalger/perl5"; export PERL_MM_OPT;
