@@ -41,8 +41,10 @@ hi StatusLineNC	term=reverse cterm=reverse gui=reverse guifg=gray40
 hi VertSplit	term=reverse cterm=reverse gui=bold,reverse guifg=gray40
 hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
 hi TabLineFill guifg=black guibg=DarkGreen
-hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
-hi TabLineSel guifg=lightblue4 guibg=royalblue4
+"hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
+hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
+"hi TabLineSel guifg=lightblue4 guibg=royalblue4
+hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#050705
 hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#0F0A00
 
