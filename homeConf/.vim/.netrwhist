@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/ogneslav/prog/examples/perl/Polynomial'
 let g:netrw_dirhist_2='/home/ogneslav/prog/examples/perl'
 let g:netrw_dirhist_3='/home/ogneslav/prog/examples'
 let g:netrw_dirhist_4='/home/ogneslav/prog/examples/latex'
+let g:netrw_dirhist_5='/home/obirvalger/.re.pl'
