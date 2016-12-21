@@ -20,6 +20,10 @@ let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
 let g:eregex_default_enable = 0
 iabbrev #i #include
+set foldmethod=syntax
+set foldlevelstart=5
+set wildmenu
+set sessionoptions=buffers
 set showtabline=2
 set number
 set tabstop=4
@@ -107,17 +111,19 @@ inoremap jk <esc>
 
 
 "Перемещение
+":map <down> <C-E> <S-M> | :map <up> <C-Y> <S-M>
+":map <down> j | :map <up> k
 imap <A-down> <Esc> <C-E> <S-M>
 map <A-down> <C-E> <S-M>
-"map <down> <C-E> <S-M>
 imap <A-up> <Esc> <C-Y> <S-M>
 map <A-up> <C-Y> <S-M>
-"map <up> <C-Y> <S-M>
 
 "Работа с вкладками
 "imap <c-n> <Esc>:tabnew<CR>
 "map <c-n> <Esc>:tabnew<CR>
-imap <c-o> <Esc>:browse tabnew<CR>
+"imap <c-o> <Esc>:browse tabnew<CR>
+ca mop browse tabnew
+map <A-o> <Esc>:browse tabnew<CR>
 nmap <c-o> <Esc>:browse tabnew<CR>
 imap <A-left> <Esc> :tabprev <CR>
 map <A-left> :tabprev <CR>
