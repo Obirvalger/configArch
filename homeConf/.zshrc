@@ -18,6 +18,8 @@ zstyle ':completion:*' rehash true
 
 unsetopt correct_all
 setopt correct
+#setopt cdable_vars
+#setopt autocd
 #sprompt="zsh: correct '%r' to '%r'? [nyae]?"
 setopt nohup
 setopt no_check_jobs
