@@ -22,11 +22,25 @@ use v5.14;
 use warnings;
 use File::Temp qw(tempfile);
 
+die "Not enough arguements" if @ARGV < 2;
 my ($fname, $old, $new) = @ARGV;
 
 my ($tfh, $tempname) = tempfile(UNLINK => 0, DIR => '.');
 
 open (my $fh, '<', $fname);
+
+my $min_tab = 'inf';
+while (<$fh>) {
+    if (/^( +)/) {
+        $min_tab = length($1) if length($1) < $min_tab;
+    }
+}
+
+($old, $new) = ($min_tab, $old) if @ARGV == 2;
+
+close ($fh);
+
+open ($fh, '<', $fname);
 
 while (<$fh>) {
     s!^( *)!' ' x (length($1) / $old * $new)!e;
