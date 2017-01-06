@@ -27,7 +27,7 @@ hi MoreMsg	term=bold ctermfg=green gui=bold guifg=olivedrab1
 hi ModeMsg	term=bold cterm=bold gui=bold
 hi Question	term=standout ctermfg=green gui=bold guifg=olivedrab1
 hi WarningMsg	term=standout ctermfg=red gui=bold guifg=red3
-hi WildMenu	term=standout ctermfg=black ctermbg=black guifg=black guibg=black
+hi WildMenu	term=standout ctermfg=gray ctermbg=black guifg=gray guibg=black
 hi Folded	term=standout ctermfg=blue ctermbg=black guifg=royalblue1 guibg=black
 hi FoldColumn	term=standout ctermfg=blue ctermbg=black guifg=royalblue3 guibg=black
 hi DiffAdd	term=bold ctermbg=blue guibg=gold3
@@ -47,6 +47,7 @@ hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
 hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#050705
 hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#0F0A00
+hi WildMenu
 
 " syntax hi colors
 hi Comment	term=bold ctermfg=darkgrey guifg=grey30
