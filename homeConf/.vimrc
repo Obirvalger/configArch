@@ -112,7 +112,7 @@ inoremap jk <esc>
 
 
 "Перемещение
-":map <down> <C-E> <S-M> | :map <up> <C-Y> <S-M>
+":map <down> <C-E> <S-M>|:map <up> <C-Y> <S-M>
 ":map <down> j | :map <up> k
 imap <A-down> <Esc> <C-E> <S-M>
 map <A-down> <C-E> <S-M>
