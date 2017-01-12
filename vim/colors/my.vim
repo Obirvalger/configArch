@@ -47,12 +47,12 @@ hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
 hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#050705
 hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#0F0A00
-hi WildMenu
+"hi WildMenu
 
 " syntax hi colors
 hi Comment	term=bold ctermfg=darkgrey guifg=grey30
 hi PreProc	term=underline ctermfg=darkblue guifg=dodgerblue4
-hi Constant	term=underline ctermfg=darkred guifg=firebrick3
+hi Constant	term=underline ctermfg=darkred guifg=darkolivegreen
 hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
 hi Statement	term=bold ctermfg=darkcyan gui=bold guifg=darkcyan
 hi Identifier	term=underline ctermfg=blue guifg=slateblue

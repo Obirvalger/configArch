@@ -20,7 +20,7 @@ let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
 let g:eregex_default_enable = 0
 iabbrev #i #include
-set virtualedit=block,insert,onemore
+set virtualedit=block,onemore
 set foldmethod=syntax
 set foldlevelstart=5
 set wildmenu
