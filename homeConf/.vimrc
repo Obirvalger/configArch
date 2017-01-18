@@ -20,6 +20,7 @@ let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
 let g:eregex_default_enable = 0
 iabbrev #i #include
+set guifont=Liberation\ Mono\ 18
 set virtualedit=block,onemore
 set foldmethod=syntax
 set foldlevelstart=5

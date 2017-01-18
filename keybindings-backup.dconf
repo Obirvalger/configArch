@@ -1,0 +1,35 @@
+[custom-keybindings/custom2]
+binding=['<Super>r']
+command='gradio'
+name='Radio'
+
+[custom-keybindings/custom1]
+binding=['<Super>a']
+command='xreader'
+name='PDF Reader'
+
+[custom-keybindings/custom0]
+binding=['<Super>t']
+command='gnome-terminal --hide-menubar --maximize'
+name='Terminal'
+
+[custom-keybindings/custom3]
+binding=['TouchpadToggle']
+command='/home/obirvalger/configArch/scripts/touchpad.sh'
+name='TouchpadToggle'
+
+[/]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3']
+
+[media-keys]
+terminal=['<Primary><Alt>t']
+touchpad-toggle=['XF86TouchpadToggleMy']
+www=['XF86WWW', '<Super>b']
+
+[wm]
+toggle-fullscreen=['<Alt>F11']
+switch-to-workspace-up=['<Alt>F1']
+move-to-center=['<Alt>c']
+move-to-workspace-left=['<Primary><Shift><Alt>Left']
+move-to-workspace-right=['<Primary><Shift><Alt>Right']
+switch-to-workspace-down=@as []
