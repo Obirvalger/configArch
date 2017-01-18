@@ -1,0 +1,47 @@
+[settings]
+columns=4
+rows=3
+
+[Dial 8]
+uri=https://duckduckgo.com/
+title=DuckDuckGo
+
+[Dial 1]
+uri=http://yandex.ru
+title=Яндекс
+
+[Dial 3]
+uri=http://google.com
+title=Google
+
+[Dial 2]
+uri=https://github.com
+title=How people build software · GitHub
+
+[Dial 4]
+uri=https://archlinux.org
+title=Arch Linux
+
+[Dial 5]
+uri=http://losst.ru
+title=Losst - Linux Open Source Software Technologies
+
+[Dial 6]
+uri=http://compizomania.blogspot.com/
+title=compizomania
+
+[Dial 7]
+uri=http://linuxthebest.net/
+title=LinuxTheBest • Обзоры и настройка Linux дистрибутивов
+
+[Dial 9]
+uri=http://mk.cs.msu.ru
+title=Кафедра математической кибернетики
+
+[Dial 12]
+uri=http://101.ru/
+title=101.ru: Онлайн радио бесплатно
+
+[Dial 11]
+uri=http://vk.com/im
+title=ВКонтакте
