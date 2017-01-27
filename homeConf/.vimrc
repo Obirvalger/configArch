@@ -14,6 +14,8 @@ Plug 'Scrooloose/nerdcommenter'
 
 Plug 'Othree/eregex.vim'
 
+Plug 'Tpope/vim-rails'
+
 "Plug 'ervandew/supertab'
 call plug#end()
 let g:Perl_PerlTags = 'on'
@@ -66,6 +68,7 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 \ exe "normal! g'\"" | endif
 
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd BufReadPost *.erb setlocal tabstop=2 | setlocal shiftwidth=2
 
 set clipboard+=unnamedplus
 set mouse=a
