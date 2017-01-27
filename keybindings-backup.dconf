@@ -23,7 +23,6 @@ custom-list=['custom0', 'custom1', 'custom2', 'custom3']
 
 [media-keys]
 terminal=['<Primary><Alt>t']
-touchpad-toggle=['XF86TouchpadToggleMy']
 www=['XF86WWW', '<Super>b']
 
 [wm]

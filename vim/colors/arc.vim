@@ -51,7 +51,7 @@ hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#405552
 "hi WildMenu
 
 " syntax hi colors
-hi Comment	term=bold ctermfg=darkgrey guifg=grey45
+hi Comment	term=bold ctermfg=darkgrey guifg=#858280
 hi PreProc	term=underline ctermfg=darkblue guifg=blue4
 hi Constant	term=underline ctermfg=darkred guifg=darkolivegreen
 hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
