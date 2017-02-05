@@ -7,15 +7,13 @@ call plug#begin('~/.vim/plugged')
 "\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
 Plug 'WolfgangMehner/vim-plugins'
-
 Plug 'Valloric/YouCompleteMe'
-
 Plug 'Scrooloose/nerdcommenter'
-
 Plug 'Othree/eregex.vim'
-
 Plug 'Tpope/vim-rails'
-
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'ervandew/supertab'
 call plug#end()
 let g:Perl_PerlTags = 'on'
@@ -27,6 +25,15 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_seed_identifiers_with_syntax = 1 
 
 let g:eregex_default_enable = 0
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 iabbrev #i #include
 set guifont=Liberation\ Mono\ 18

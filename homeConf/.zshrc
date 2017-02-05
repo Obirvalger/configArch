@@ -6,7 +6,7 @@ bindkey -e
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
-export PATH=$HOME/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin:$PATH
+export PATH=$HOME/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin:$PATH
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
@@ -196,6 +196,16 @@ githubAdd () {
         git remote add origin git@github.com:${1}/${2}.git
         git push origin master
     fi
+}
+
+hist () {
+    if [ $1 ]; then
+        n=$1
+    else
+        n=10
+    fi
+
+    fc -lndD -$n
 }
 
 gp () {

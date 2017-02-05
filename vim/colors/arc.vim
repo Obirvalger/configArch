@@ -40,7 +40,7 @@ hi lCursor	guifg=bg guibg=fg
 hi StatusLine	term=reverse cterm=reverse gui=reverse guifg=gray60
 hi StatusLineNC	term=reverse cterm=reverse gui=reverse guifg=gray40
 hi VertSplit	term=reverse cterm=reverse gui=bold,reverse guifg=gray40
-hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
+hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine
 hi TabLineFill guifg=#404552 guibg=DarkGreen
 hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
 "hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
