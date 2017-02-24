@@ -3,10 +3,20 @@ binding=['<Super>r']
 command='gradio'
 name='Radio'
 
+[custom-keybindings/custom5]
+binding=['<Super>v']
+command='virtualbox'
+name='Virtualbox'
+
 [custom-keybindings/custom1]
 binding=['<Super>a']
-command='xreader'
+command='evince'
 name='PDF Reader'
+
+[custom-keybindings/custom4]
+binding=['<Super>p']
+command='audacious -t'
+name='Player toggle'
 
 [custom-keybindings/custom0]
 binding=['<Super>t']
@@ -14,16 +24,18 @@ command='gnome-terminal --hide-menubar --maximize'
 name='Terminal'
 
 [custom-keybindings/custom3]
-binding=['TouchpadToggle']
-command='/home/obirvalger/configArch/scripts/touchpad.sh'
-name='TouchpadToggle'
+binding=['<Super>c']
+command='atom'
+name='Code editor'
 
 [/]
-custom-list=['custom0', 'custom1', 'custom2', 'custom3']
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5']
 
 [media-keys]
 terminal=['<Primary><Alt>t']
+touchpad-toggle=['XF86TouchpadToggle']
 www=['XF86WWW', '<Super>b']
+video-outputs=['XF86Display']
 
 [wm]
 toggle-fullscreen=['<Alt>F11']

@@ -12,8 +12,8 @@ Plug 'Scrooloose/nerdcommenter'
 Plug 'Othree/eregex.vim'
 Plug 'Tpope/vim-rails'
 Plug 'scrooloose/syntastic'
-Plug 'scrooloose/nerdtree'
-Plug 'jistr/vim-nerdtree-tabs'
+"Plug 'scrooloose/nerdtree'
+"Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'ervandew/supertab'
 call plug#end()
 let g:Perl_PerlTags = 'on'
@@ -138,6 +138,8 @@ imap <A-down> <Esc> <C-E> <S-M>
 map <A-down> <C-E> <S-M>
 imap <A-up> <Esc> <C-Y> <S-M>
 map <A-up> <C-Y> <S-M>
+
+map <C-_> <plug>NERDCommenterToggle
 
 "Работа с вкладками
 "imap <c-n> <Esc>:tabnew<CR>
