@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117111-3060-184yps6/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117111-3060-184yps6/package.tgz",
+        "spec": "/tmp/d-117111-3060-184yps6/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117111-3060-1k34njw"
+    ]
+  ],
+  "_from": "../d-117111-3060-184yps6/package.tgz",
+  "_id": "language-liquidhaskell@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-liquidhaskell",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117111-3060-184yps6/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117111-3060-184yps6/package.tgz",
+    "spec": "/tmp/d-117111-3060-184yps6/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117111-3060-184yps6/package.tgz",
+  "_shasum": "6d6259e81161f43f4ad3cd29cb3faf146baa7f02",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117111-3060-184yps6/package.tgz",
+  "_where": "/tmp/apm-install-dir-117111-3060-1k34njw",
+  "author": {
+    "name": "Ranjit Jhala",
+    "email": "jhala@cs.ucsd.edu"
+  },
+  "bugs": {
+    "url": "https://github.com/ranjitjhala/language-liquidhaskell/issues"
+  },
+  "dependencies": {},
+  "description": "Provides syntax highlighting LiquidHaskell annotations",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.196.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ranjitjhala/language-liquidhaskell#readme",
+  "keywords": [
+    "haskell",
+    "liquid",
+    "grammar",
+    "syntax"
+  ],
+  "license": "MIT",
+  "name": "language-liquidhaskell",
+  "optionalDependencies": {},
+  "readme": "# LiquidHaskell Syntax Highlighting\n\nProvides syntax highlighting for [LiquidHaskell] annotations in Haskell files,\nby rendering text inside `{-@ ... @-}` using the plain Haskell highlights (i.e.\nnot as comments.)\n\n![language-liquidhaskell in action](https://raw.githubusercontent.com/ranjitjhala/language-liquidhaskell/master/screenshot.png)\n\n## Install\n\nThis package requires `language-haskell` but unfortunately\nthere is no way to automatically install it. So do the following:\n\n1. `apm install language-liquidhaskell`\n2. `apm install language-haskell`\n\nand that's it.\n\n*NOTE:* It is important that you install the above _in the given order_.\n\n## Copyright\n\nCopyright &copy; 2016 by [Ranjit Jhala](http://ranjitjhala.github.io) \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjitjhala/language-liquidhaskell.git"
+  },
+  "version": "0.4.0"
+}

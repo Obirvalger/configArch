@@ -1,0 +1,25 @@
+'fileTypes': [
+  'hs'
+  'liquidhs'
+]
+
+'name': 'liquidhaskell'
+
+'patterns': [
+  {
+        'name'       : 'block.liquidhaskell'
+        'contentName': 'block.liquidhaskell.annotation'
+        'begin'      : '\\{-@(?!#)'
+        'end'        : '@-\\}'
+        'patterns': [
+          {
+            'include': 'source.haskell'
+          }
+        ]
+  }
+  {
+            'include': 'source.haskell'
+  }
+]
+
+'scopeName': 'text.liquidhaskell'
