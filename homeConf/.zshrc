@@ -6,7 +6,10 @@ bindkey -e
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
-export PATH=$PATH:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
+export PATH=$PATH:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
+
+PERL5LIB=~/perl5/lib/perl5
+export PERL5LIB
 
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
@@ -309,9 +312,7 @@ yi () {
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-PATH="~/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PATH="~/intelFPGA_lite/16.1/quartus/bin:${PATH}"; export PATH;
-PERL5LIB="~/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="~/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+#PATH="~/intelFPGA_lite/16.1/quartus/bin:${PATH}"
+PERL_LOCAL_LIB_ROOT="~/perl5:$PERL_LOCAL_LIB_ROOT"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"~/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=~/perl5"; export PERL_MM_OPT;
