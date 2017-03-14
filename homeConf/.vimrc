@@ -54,9 +54,11 @@ set showcmd
 set incsearch
 set wrapscan
 "if &term=~'linux'
-if &term=~'xterm'
+
+try
     set termguicolors
-endif
+	catch /termgui/
+endtry
 
 try
     colorscheme my
