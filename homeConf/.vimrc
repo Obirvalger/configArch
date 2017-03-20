@@ -83,6 +83,7 @@ syntax on
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 \ exe "normal! g'\"" | endif
 
+autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd BufReadPost *.erb setlocal tabstop=2 | setlocal shiftwidth=2
 
