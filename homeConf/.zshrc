@@ -309,10 +309,8 @@ yi () {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-#PATH="~/intelFPGA_lite/16.1/quartus/bin:${PATH}"
-PERL_LOCAL_LIB_ROOT="~/perl5:$PERL_LOCAL_LIB_ROOT"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"~/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=~/perl5"; export PERL_MM_OPT;
+mkdir ~/tmp/hasher
