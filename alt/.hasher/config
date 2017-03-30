@@ -1,0 +1,4 @@
+packager="Mikhail Gordeev <obirvalger@altlinux.org>"
+known_mountpoints=/proc,/dev/pts
+lock_nowait=1
+if [ ! `uname -m` = x86_64 ]; then def_target=i586; fi
