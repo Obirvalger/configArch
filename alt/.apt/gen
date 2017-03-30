@@ -1,0 +1,31 @@
+#!/bin/sh
+# defaults to int1
+#ROOT="file:///fspace/ALT"
+ROOT="file:///space/ALT"
+#ROOT="http://ftp.altlinux.org/pub/distributions/ALTLinux"
+BDIR="$(dirname "$(realpath "$0")")"
+ARCH="i586 x86_64"
+REPO="p8 Sisyphus"
+# override defaults
+test -r "$0.config" && . "$0.config"
+
+for A in $ARCH
+do
+  for R in $REPO
+  do
+    DIR="$BDIR"
+    mkdir -p "$DIR"
+    cat > "$DIR/${R}_${A}.conf" <<@@@
+Dir::Etc::main "/dev/null";
+Dir::Etc::parts "/var/empty";
+Dir::Etc::SourceList "$DIR/${R}_${A}.list";
+Dir::Etc::SourceParts "/var/empty";
+Dir::Etc::preferences "/dev/null";
+Dir::Etc::preferencesparts "/var/empty";
+@@@
+    cat > "$DIR/${R}_${A}.list" <<@@@
+rpm $ROOT/$R $A classic
+rpm $ROOT/$R noarch classic
+@@@
+  done
+done
