@@ -314,4 +314,6 @@ yi () {
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-mkdir ~/tmp/hasher
+if [ -d ~/tmp ]
+    then mkdir ~/tmp/hasher
+fi
