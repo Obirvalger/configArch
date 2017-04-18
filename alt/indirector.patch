@@ -1,0 +1,12 @@
+--- /usr/lib/ruby/site_ruby/puppet/indirector/indirection.rb	2017-01-13 21:05:09.000000000 +0300
++++ /root/indirection.rb	2017-04-18 17:32:53.587000000 +0300
+@@ -202,6 +202,9 @@
+             Puppet.log_exception(detail)
+             raise detail
+           end
++        elsif (Puppet[:noop] && (options.key? :facts))
++          class_name = Puppet[:catalog_cache_terminus] if class_name.to_s.empty?
++          terminus(class_name).save request(:save, key, result, options)
+         end
+ 
+         filtered = result
