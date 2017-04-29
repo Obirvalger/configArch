@@ -15,11 +15,12 @@ let g:colors_name = "my"
 " General colors
 "hi Normal	ctermfg=gray guifg=gray80 guibg=black
 hi Normal	ctermfg=gray guifg=#D3DAE3 guibg=#404552
+"hi Normal	ctermfg=gray guifg=fg guibg=bg
 hi Directory	term=bold ctermfg=blue guifg=royalblue
 hi ErrorMsg	term=standout ctermfg=white ctermbg=red guifg=white guibg=red3
-hi NonText	term=bold ctermfg=darkgray guibg=#404552 guifg=gray20
+hi NonText	term=bold ctermfg=darkgray guibg=bg guifg=gray20
 hi SpecialKey	term=bold ctermfg=darkgray guifg=white
-hi LineNr	term=underline ctermfg=darkgray guifg=ivory4 guibg=#404552
+hi LineNr	term=underline ctermfg=darkgray guifg=ivory4 guibg=bg
 hi IncSearch	term=reverse cterm=reverse gui=reverse,bold guifg=purple1
 hi Search	term=reverse ctermfg=black ctermbg=yellow guifg=gray10 guibg=purple4
 hi Visual	term=bold,reverse cterm=bold,reverse ctermfg=gray ctermbg=black gui=bold,reverse guifg=gray40 guibg=black
@@ -28,7 +29,7 @@ hi MoreMsg	term=bold ctermfg=green gui=bold guifg=olivedrab1
 hi ModeMsg	term=bold cterm=bold gui=bold
 hi Question	term=standout ctermfg=green gui=bold guifg=olivedrab1
 hi WarningMsg	term=standout ctermfg=red gui=bold guifg=red3
-hi WildMenu	term=standout ctermfg=gray ctermbg=black guifg=gray guibg=#404552
+hi WildMenu	term=standout ctermfg=gray ctermbg=black guifg=gray guibg=bg
 hi Folded	term=standout ctermfg=blue ctermbg=black guifg=royalblue1 guibg=black
 hi FoldColumn	term=standout ctermfg=blue ctermbg=black guifg=royalblue3 guibg=black
 hi DiffAdd	term=bold ctermbg=blue guibg=gold3
@@ -40,30 +41,32 @@ hi lCursor	guifg=bg guibg=fg
 hi StatusLine	term=reverse cterm=reverse gui=reverse guifg=gray60
 hi StatusLineNC	term=reverse cterm=reverse gui=reverse guifg=gray40
 hi VertSplit	term=reverse cterm=reverse gui=bold,reverse guifg=gray40
-hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine
-hi TabLineFill guifg=#404552 guibg=DarkGreen
+hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
+hi TabLineFill guifg=bg guibg=DarkGreen
 hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
 "hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
 hi TabLineSel guifg=lightblue4 guibg=royalblue4
 "hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#404560
 hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#405552
+hi SignColumn guibg=bg
+hi SyntasticError guibg=red3
 "hi WildMenu
 
 " syntax hi colors
-hi Comment	term=bold ctermfg=darkgrey guifg=#858280
-hi PreProc	term=underline ctermfg=darkblue gui=bold guifg=#27ae60
-hi Constant	term=underline ctermfg=darkred guifg=darkolivegreen4
+hi Comment	term=bold ctermfg=darkgrey guifg=grey45
+hi PreProc	term=underline ctermfg=darkblue guifg=blue4
+hi Constant	term=underline ctermfg=darkred guifg=darkolivegreen
 hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
 hi Statement	term=bold ctermfg=darkcyan gui=bold guifg=darkcyan
 hi Identifier	term=underline ctermfg=blue guifg=slateblue
 hi Ignore	term=bold ctermfg=darkgray guifg=gray45
-hi Special	term=underline ctermfg=brown guifg=sienna3
+hi Special	term=underline ctermfg=brown guifg=sienna4
 hi Error	term=reverse ctermfg=gray ctermbg=red guifg=gray guibg=red3
-hi Todo		term=standout ctermfg=black ctermbg=yellow gui=bold guifg=gray10 guibg=yellow4
+hi Todo		term=standout ctermfg=black ctermbg=yellow gui=bold guifg=gray10 guibg=green4
 hi Underlined	term=underline cterm=underline ctermfg=darkblue gui=underline guifg=slateblue
-hi Number	term=underline ctermfg=darkgreen guifg=green3
-hi String	ctermfg=darkyellow guifg=darkolivegreen4
+hi Number	term=underline ctermfg=darkgreen guifg=green4
+hi String	ctermfg=darkyellow guifg=darkolivegreen
 hi Boolean  guifg=darkgreen
 " syntax hi links
 hi link Character	Constant
