@@ -57,6 +57,8 @@ set wrapscan
 
 try
     set termguicolors
+    let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
+    let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
 	catch /termgui/
 endtry
 
@@ -137,10 +139,10 @@ inoremap jk <esc>
 "Перемещение
 ":map <down> <C-E> <S-M>|:map <up> <C-Y> <S-M>
 ":map <down> j | :map <up> k
-imap <A-down> <Esc> <C-E> <S-M>
-map <A-down> <C-E> <S-M>
-imap <A-up> <Esc> <C-Y> <S-M>
-map <A-up> <C-Y> <S-M>
+"imap <A-down> <Esc> <C-E> <S-M>
+map <Esc>[1;3B <C-E> <S-M>
+"imap <A-up> <Esc> <C-Y> <S-M>
+map <Esc>[1;3A <C-Y> <S-M>
 
 map <C-_> <plug>NERDCommenterToggle
 
@@ -149,14 +151,16 @@ map <C-_> <plug>NERDCommenterToggle
 "map <c-n> <Esc>:tabnew<CR>
 "imap <c-o> <Esc>:browse tabnew<CR>
 ca mop browse tabnew
-map <A-o> <Esc>:browse tabnew<CR>
+"map <A-o> <Esc>:browse tabnew<CR>
 nmap <c-o> <Esc>:browse tabnew<CR>
-imap <A-left> <Esc> :tabprev <CR>
-map <A-left> :tabprev <CR>
+"imap <A-left> <Esc> :tabprev <CR>
+"map <A-left> :tabprev <CR>
+map <Esc>[1;3D :tabprev <CR>
 "imap <A-h> <Esc> :tabprev <CR>i
 "map <A-h> :tabprev <CR>
-imap <A-right> <Esc> :tabnext <CR>
-map <A-right> :tabnext <CR>
+"imap <A-right> <Esc> :tabnext <CR>
+"map <A-right> :tabnext <CR>
+map <Esc>[1;3C :tabnext <CR>
 "imap <a-l> <Esc> :tabnext <CR>i
 "map <a-l> :tabnext <CR>
 
