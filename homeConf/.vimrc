@@ -12,6 +12,8 @@ Plug 'Scrooloose/nerdcommenter'
 Plug 'Othree/eregex.vim'
 Plug 'Tpope/vim-rails'
 Plug 'scrooloose/syntastic'
+Plug 'alx741/yesod.vim'
+Plug 'pbrisbin/vim-syntax-shakespeare'
 "Plug 'scrooloose/nerdtree'
 "Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'ervandew/supertab'
@@ -88,6 +90,11 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd BufReadPost *.erb setlocal tabstop=2 | setlocal shiftwidth=2
+
+" yesod filetypes
+"autocmd BufReadPost *.hamlet setlocal filetype=html
+"autocmd BufReadPost *.lucius setlocal filetype=css
+"autocmd BufReadPost *.julius setlocal filetype=javascript
 
 set clipboard+=unnamedplus
 set mouse=a
