@@ -17,3 +17,10 @@ ssh git.alt init-db $(basename $(pwd))
 git push -u origin `git describe`
 
 git remote add origin git.alt:/people/obirvalger/packages/$(basename $(pwd)).git
+
+git remote add rep ssh://git_obirvalger@gitery.altlinux.org:222/people/obirvalger/packages/genspec.git
+
+# rpm
+rpmbuild --eval %_bindir
+
+rpm --showrc | fgrep /etc
