@@ -24,6 +24,8 @@ setopt correct
 #setopt cdable_vars
 #setopt autocd
 #sprompt="zsh: correct '%r' to '%r'? [nyae]?"
+setopt interactivecomments
+setopt noclobber
 setopt nohup
 setopt no_check_jobs
 setopt hist_ignore_all_dups
