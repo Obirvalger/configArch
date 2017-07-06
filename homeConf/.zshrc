@@ -53,6 +53,9 @@ bindkey "^[[B" history-beginning-search-forward-end
 bindkey "^[OA" history-beginning-search-backward-end
 bindkey "^[OB" history-beginning-search-forward-end
 
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+
 #export LS_COLORS='di=38;5;108:fi=00:ln=38;5;116:ex=38;5;186'
 #export LSCOLORS='ExGxFxdxCxEgEdHbagacad'
 
