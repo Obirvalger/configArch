@@ -70,10 +70,8 @@ compinit
 promptinit
 prompt off
 autoload -U colors && colors
-PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
-#PS1='%F{4}[%F{6}%i%F{4}] %F{0}%B%T%b %F{2} %~%f %# '
-#'%F{3}$(git branch 2> /dev/null | sed -r s/.//)%f %# '
-#PS1='$LINENO'
+#PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
+PS1='%F{3}{%m} %F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
 #RPROMPT="%(?..%F{red}%?)"
 #setopt promptsubst
 
@@ -107,6 +105,7 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias gti='git'
 alias pe='perl -pe'
 alias cp='cp -Lvir'
 alias mv='mv -vi'
