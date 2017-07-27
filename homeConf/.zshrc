@@ -6,7 +6,7 @@ bindkey -e
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
-export PATH=$PATH:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
+export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
 
 PERL5LIB=~/perl5/lib/perl5
 export PERL5LIB
@@ -70,8 +70,12 @@ compinit
 promptinit
 prompt off
 autoload -U colors && colors
-#PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
-PS1='%F{3}{%m} %F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
+if [[ $HOST == home ]]
+then
+    PS1='%F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
+else
+    PS1='%F{3}{%m} %F{5}[%F{4}%B%2c%b%F{5}]%f %#%b '
+fi
 #RPROMPT="%(?..%F{red}%?)"
 #setopt promptsubst
 
@@ -105,6 +109,7 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias vims='gear-edit-spec'
 alias gti='git'
 alias pe='perl -pe'
 alias cp='cp -Lvir'
