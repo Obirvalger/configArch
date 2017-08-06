@@ -6,6 +6,8 @@ bindkey -e
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
+export fpath=($fpath ~/.zsh/completions)
+
 export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
 
 PERL5LIB=~/perl5/lib/perl5
@@ -33,6 +35,7 @@ setopt extended_history
 unsetopt share_history
 setopt hist_ignore_space
 
+autoload -U zmv
 autoload -Uz run-help
 autoload -Uz run-help-git
 autoload -Uz run-help-svn
