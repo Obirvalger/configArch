@@ -142,6 +142,7 @@ alias pltags='/usr/share/vim/vim80/tools/pltags.pl'
 export EDITOR="vim"
 export PYTHONSTARTUP=~/.pythonrc
 
+export LESS=FRSX
 export LESS_TERMCAP_mb=$(printf '\e[01;31m') # enter blinking mode - red
 export LESS_TERMCAP_md=$(printf '\e[01;35m') # enter double-bright mode - bold, magenta
 export LESS_TERMCAP_me=$(printf '\e[0m') # turn off all appearance modes (mb, md, so, us)
