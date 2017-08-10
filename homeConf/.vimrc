@@ -4,7 +4,7 @@ set nocompatible
 "    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 filetype plugin indent on
 call plug#begin('~/.vim/plugged')
-"Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do': 
+"Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do':
 "\ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
 Plug 'WolfgangMehner/vim-plugins'
@@ -19,13 +19,22 @@ Plug 'pbrisbin/vim-syntax-shakespeare'
 "Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'ervandew/supertab'
 call plug#end()
+
+" Trailing whitespaces
+au InsertEnter * match ErrorMsg /\s\+\%#\@<!$/
+au InsertLeave * match ErrorMsg /\s\+$/
+"nnoremap <Leader>rtw :s/\s\+$//e<CR>
+"nnoremap <Leader>ratw :%s/\s\+$//e<CR>
+
 let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
+
+let g:go_highlight_trailing_whitespace_error=0
 
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
-let g:ycm_seed_identifiers_with_syntax = 1 
+let g:ycm_seed_identifiers_with_syntax = 1
 
 let g:eregex_default_enable = 0
 
