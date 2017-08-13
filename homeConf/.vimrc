@@ -170,7 +170,7 @@ map <Esc>[1;3B <C-E> <S-M>
 "imap <A-up> <Esc> <C-Y> <S-M>
 map <Esc>[1;3A <C-Y> <S-M>
 
-map <C-_> <plug>NERDCommenterToggle
+map <C-_> <plug>NERDCommenterInvert
 
 "Работа с вкладками
 "imap <c-n> <Esc>:tabnew<CR>
