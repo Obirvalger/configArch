@@ -30,6 +30,8 @@ au BufRead * match ErrorMsg /\s\+$/
 nnoremap <Leader>rtw :%s/\s\+$//e<CR>
 "nnoremap <Leader>ratw :%s/\s\+$//e<CR>
 
+let g:NERDSpaceDelims = 1
+
 let g:go_fmt_command = "goimports"
 
 let g:Perl_PerlTags = 'on'
