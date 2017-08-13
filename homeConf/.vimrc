@@ -22,8 +22,10 @@ call plug#end()
 
 " Trailing whitespaces
 au InsertEnter * match ErrorMsg /\s\+\%#\@<!$/
-au InsertLeave * match ErrorMsg /\s\+$/
-"nnoremap <Leader>rtw :s/\s\+$//e<CR>
+"au InsertLeave * match ErrorMsg /\s\+$/
+au BufWrite * match ErrorMsg /\s\+$/
+au BufRead * match ErrorMsg /\s\+$/
+nnoremap <Leader>rtw :%s/\s\+$//e<CR>
 "nnoremap <Leader>ratw :%s/\s\+$//e<CR>
 
 let g:Perl_PerlTags = 'on'
@@ -93,7 +95,7 @@ syntax on
 "echo ">^.^<"
 "set autowrite
 
-"disable position information	
+"disable position information
 
 "packadd! matchit
 
@@ -101,9 +103,12 @@ syntax on
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 \ exe "normal! g'\"" | endif
 
+
+
 autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
-autocmd BufReadPost *.erb setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd Filetype make setlocal noexpandtab
+autocmd BufRead *.erb setlocal tabstop=2 | setlocal shiftwidth=2
 
 set clipboard+=unnamedplus
 set mouse=a
@@ -124,7 +129,7 @@ set expandtab
 "        return "\<c-n>"
 "    endif
 " endfunction
-set smartindent 
+set smartindent
 
 "let g:Perl_MapLeader  = ','
 
