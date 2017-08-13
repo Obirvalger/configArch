@@ -15,6 +15,8 @@ Plug 'Tpope/vim-rails'
 Plug 'scrooloose/syntastic'
 Plug 'alx741/yesod.vim'
 Plug 'pbrisbin/vim-syntax-shakespeare'
+Plug 'fatih/vim-go'
+
 "Plug 'scrooloose/nerdtree'
 "Plug 'jistr/vim-nerdtree-tabs'
 "Plug 'ervandew/supertab'
@@ -27,6 +29,8 @@ au BufWrite * match ErrorMsg /\s\+$/
 au BufRead * match ErrorMsg /\s\+$/
 nnoremap <Leader>rtw :%s/\s\+$//e<CR>
 "nnoremap <Leader>ratw :%s/\s\+$//e<CR>
+
+let g:go_fmt_command = "goimports"
 
 let g:Perl_PerlTags = 'on'
 "let g:Perl_InsertFileHeader = 'no'
@@ -109,6 +113,7 @@ autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype make setlocal noexpandtab
 autocmd BufRead *.erb setlocal tabstop=2 | setlocal shiftwidth=2
+
 
 set clipboard+=unnamedplus
 set mouse=a
