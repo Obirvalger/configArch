@@ -47,7 +47,9 @@ hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
 hi TabLineSel guifg=lightblue4 guibg=royalblue4
 "hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#050705
-hi Pmenu ctermbg=yellow guifg=#D0DFAF guibg=#1F1A20
+hi Pmenu ctermbg=yellow guifg=#00DFAF guibg=#0F0A10
+hi PmenuSel ctermbg=yellow guifg=#0F0A10 guibg=#00DFAF
+
 "hi WildMenu
 
 " syntax hi colors
