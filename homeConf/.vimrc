@@ -74,7 +74,7 @@ set shiftwidth=4
 set startofline
 " nnoremap ? ?\c
 " set ignorecase
-set noruler
+" set noruler
 set showcmd
 set incsearch
 set wrapscan
