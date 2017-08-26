@@ -61,6 +61,7 @@ set guifont=Liberation\ Mono\ 18
 set virtualedit=block,onemore
 " set foldmethod=syntax
 " set foldlevelstart=5
+set completeopt=menu
 set nohls
 set nobackup
 set nowritebackup
@@ -163,6 +164,7 @@ inoremap jk <esc>
 " inoremap <tab> <c-r>=InsertTabWrapper ("forward")<cr>
 " inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>
 
+map <Esc>[Z <s-tab>
 
 " Перемещение
 " :map <down> <C-E> <S-M>|:map <up> <C-Y> <S-M>
@@ -204,7 +206,7 @@ map <Esc>[1;3C :tabnext <CR>
 
 " Сдвиг по tab"
 " nnoremap <Tab> >>_
-nnoremap <S-Tab> <c-O>
+" nnoremap <S-Tab> <c-O>
 " inoremap <S-Tab> <C-D>
 " vnoremap <Tab> >gv
 " vnoremap <S-Tab> <gv
