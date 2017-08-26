@@ -14,6 +14,7 @@ let g:colors_name = "my"
 
 " General colors
 hi Normal	ctermfg=gray guifg=gray80 guibg=black
+"hi Normal	ctermfg=gray guifg=#D3DAE3 guibg=#404552
 hi Directory	term=bold ctermfg=blue guifg=royalblue
 hi ErrorMsg	term=standout ctermfg=white ctermbg=red guifg=white guibg=red3
 hi NonText	term=bold ctermfg=darkgray guibg=black guifg=gray20
@@ -39,18 +40,20 @@ hi lCursor	guifg=bg guibg=fg
 hi StatusLine	term=reverse cterm=reverse gui=reverse guifg=gray60
 hi StatusLineNC	term=reverse cterm=reverse gui=reverse guifg=gray40
 hi VertSplit	term=reverse cterm=reverse gui=bold,reverse guifg=gray40
-hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=red
+hi Title	term=bold ctermfg=magenta gui=bold guifg=aquamarine guibg=bg
 hi TabLineFill guifg=black guibg=DarkGreen
-"hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
-hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
-"hi TabLineSel guifg=lightblue4 guibg=royalblue4
-hi TabLineSel guifg=grey18 guibg=#7A9F4A
+hi TabLine gui=bold guifg=royalblue4 guibg=lightblue4
+"hi TabLine gui=bold guifg=#7A9F4A guibg=gray18
+hi TabLineSel guifg=lightblue4 guibg=royalblue4
+"hi TabLineSel guifg=grey18 guibg=#7A9F4A
 hi ColorColumn ctermbg=grey guibg=#050705
-hi Pmenu ctermbg=yellow guifg=#B0BFFF guibg=#0F0A00
+hi Pmenu ctermbg=yellow guifg=#00DFAF guibg=#0F0A10
+hi PmenuSel ctermbg=yellow guifg=#0F0A10 guibg=#00DFAF
+
 "hi WildMenu
 
 " syntax hi colors
-hi Comment	term=bold ctermfg=darkgrey guifg=grey30
+hi Comment	term=bold ctermfg=darkgrey guifg=#6O8BAF
 hi PreProc	term=underline ctermfg=darkblue guifg=dodgerblue4
 hi Constant	term=underline ctermfg=darkred guifg=darkolivegreen
 hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
