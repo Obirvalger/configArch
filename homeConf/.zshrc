@@ -8,6 +8,9 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 export fpath=($fpath ~/.zsh/completions)
 
+# do not remove space after | and & chars
+export ZLE_SPACE_SUFFIX_CHARS=$'|&'
+
 export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
 
 PERL5LIB=~/perl5/lib/perl5
