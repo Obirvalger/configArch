@@ -16,6 +16,9 @@ export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ru
 PERL5LIB=~/perl5/lib/perl5
 export PERL5LIB
 
+export GOOGLER_COLORS=Ecgbxy
+
+
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 zstyle ':completion:*' rehash true
@@ -119,6 +122,7 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias googler='googler -n 7'
 alias vims='gear-edit-spec'
 alias gti='git'
 alias pe='perl -pe'
