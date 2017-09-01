@@ -166,6 +166,9 @@ inoremap jk <esc>
 
 map <Esc>[Z <s-tab>
 
+" autoclose {
+inoremap {<CR> {<CR>}<C-o>==<C-o>O
+
 " Перемещение
 " :map <down> <C-E> <S-M>|:map <up> <C-Y> <S-M>
 " :map <down> j | :map <up> k
