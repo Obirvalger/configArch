@@ -35,10 +35,13 @@ setopt nohup
 setopt no_check_jobs
 setopt hist_ignore_all_dups
 setopt extended_history
+setopt hist_save_no_dups
+setopt inc_append_history
 unsetopt share_history
 setopt hist_ignore_space
 
 autoload -U zmv
+autoload -U edit-command-line
 autoload -Uz run-help
 autoload -Uz run-help-git
 autoload -Uz run-help-svn
@@ -49,6 +52,7 @@ autoload -U history-search-end
 
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
+zle -N edit-command-line
 
 # ctrl-v + arrow to find exact key code
 
