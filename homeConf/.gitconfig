@@ -9,19 +9,19 @@
     extendedRegexp = true
 
 [alias]
-    co = checkout
-    cob = checkout -b
-    ci = commit
-    cim = commit -m
+    co   = checkout
+    cob  = checkout -b
+    ci   = commit
+    cim  = commit -m
     ciam = commit -am
-    st = status
-    br = branch
+    st   = status
+    br   = branch
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     type = cat-file -t
     dump = cat-file -p
-    lgp = log --stat -p
-    lgs = log --stat
-    who = shortlog -sn
+    lgp  = log --stat -p
+    lgs  = log --stat
+    who  = shortlog -sn
 
 [core]
     excludesfile = /home/obirvalger/.gitignore_global
