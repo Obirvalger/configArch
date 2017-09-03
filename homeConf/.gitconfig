@@ -13,6 +13,7 @@
     cob = checkout -b
     ci = commit
     cim = commit -m
+    ciam = commit -am
     st = status
     br = branch
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
