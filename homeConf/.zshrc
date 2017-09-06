@@ -6,8 +6,6 @@ bindkey -e
 
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
-export fpath=($fpath ~/.zsh/completions)
-
 # do not remove space after | and & chars
 export ZLE_SPACE_SUFFIX_CHARS=$'|&'
 
