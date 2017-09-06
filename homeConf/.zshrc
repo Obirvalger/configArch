@@ -9,6 +9,12 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # do not remove space after | and & chars
 export ZLE_SPACE_SUFFIX_CHARS=$'|&'
 
+if [ -z $GOPATH ]; then
+    export GOPATH=/usr/share/gocode
+else
+    export GOPATH=$GOPATH:/usr/share/gocode
+fi
+
 export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
 
 PERL5LIB=~/perl5/lib/perl5
