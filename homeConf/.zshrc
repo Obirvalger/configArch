@@ -79,6 +79,9 @@ bindkey "^[[1;5C" forward-word
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
 zstyle ':completion:*' menu select
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
+zstyle ':completion::complete:*' use-cache 1
 autoload -U zcalc
 autoload -Uz compinit promptinit
 autoload -U colors zsh/terminfo
