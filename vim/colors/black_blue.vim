@@ -60,9 +60,9 @@ hi Type		term=underline ctermfg=darkgreen gui=none guifg=dodgerblue
 hi Statement	term=bold ctermfg=darkcyan gui=bold guifg=darkcyan
 hi Identifier	term=underline ctermfg=blue guifg=slateblue
 hi Ignore	term=bold ctermfg=darkgray guifg=gray45
-hi Special	term=underline ctermfg=brown guifg=sienna4
+hi Special	term=underline ctermfg=brown guifg=#56ab88
 hi Error	term=reverse ctermfg=gray ctermbg=red guifg=gray guibg=red3
-hi Todo		term=standout ctermfg=black ctermbg=yellow gui=bold guifg=gray10 guibg=yellow4
+hi Todo		term=standout ctermfg=black ctermbg=yellow gui=bold guifg=bg guibg=#608BAF
 hi Underlined	term=underline cterm=underline ctermfg=darkblue gui=underline guifg=slateblue
 hi Number	term=underline ctermfg=darkgreen guifg=green4
 hi String	ctermfg=darkyellow guifg=darkolivegreen
