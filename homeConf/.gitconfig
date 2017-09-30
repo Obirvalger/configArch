@@ -25,3 +25,6 @@
 
 [core]
     excludesfile = /home/obirvalger/.gitignore_global
+
+[merge]
+	tool = vimdiff
