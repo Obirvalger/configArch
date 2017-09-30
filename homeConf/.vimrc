@@ -7,9 +7,9 @@ call plug#begin('~/.vim/plugged')
 " Plug 'vim-perl/vim-perl', { 'for': 'perl', 'do':
 " \ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
-Plug 'WolfgangMehner/vim-plugins'
+" Plug 'WolfgangMehner/vim-plugins'
 Plug 'Valloric/YouCompleteMe'
-Plug 'Scrooloose/nerdcommenter'
+" Plug 'Scrooloose/nerdcommenter'
 Plug 'Othree/eregex.vim'
 Plug 'Tpope/vim-rails'
 Plug 'scrooloose/syntastic'
