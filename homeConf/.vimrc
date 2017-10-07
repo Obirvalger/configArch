@@ -115,7 +115,7 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype make setlocal noexpandtab
-autocmd BufRead *.erb setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd BufRead *.recipe setlocal ft=sh | setlocal noexpandtab
 
 
 set clipboard+=unnamedplus
