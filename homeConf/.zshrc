@@ -356,4 +356,7 @@ stty -ixon
 build_hosts=(work port)
 if [[ -d ~/tmp && ${build_hosts[(r)$HOSTNAME]} ]]
     then mkdir ~/tmp/hasher
+    if [ ! -e ~/hasher ]; then
+        ln -s tmp/hasher ~/hasher
+    fi
 fi
