@@ -176,6 +176,24 @@ export LESS_TERMCAP_so=$(printf '\e[01;33m') # enter standout mode - yellow
 export LESS_TERMCAP_ue=$(printf '\e[0m') # leave underline mode
 export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode - cyan
 
+sjo () {
+    [ $1 ] && c="tmux a -t $1" || c=
+    b=balt
+    ssh -Atto ProxyCommand="ssh $b nc obirvalger 22" obirvalger $c
+}
+
+sja () {
+    [ $1 ] && c="tmux a -t $1" || c=
+    b=balt
+    ssh -Atto ProxyCommand="ssh $b nc altair 22" altair $c
+}
+
+sjb () {
+    [ $1 ] && c="tmux a -t $1" || c=
+    b=balt
+    ssh -Att $b $c
+}
+
 .ssh () {
     source ~/o.ssh
 }
