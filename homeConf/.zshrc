@@ -21,7 +21,7 @@ else
     export GOPATH=$GOPATH:/usr/share/gocode
 fi
 
-export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:~/.cabal/bin:~/.gem/ruby/2.4.0/bin:/usr/local/bin:/opt/rakudo-star-2016.10/bin:/opt/rakudo-star-2016.10/share/perl6/site/bin
+export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:/usr/local/bin:/usr/sbin:/sbin
 
 PERL5LIB=~/perl5/lib/perl5
 export PERL5LIB
