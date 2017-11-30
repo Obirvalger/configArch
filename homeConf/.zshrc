@@ -2,6 +2,10 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
 
+if ([ -f ~/.zshrc.local ]) {
+    source ~/.zshrc.local
+}
+
 export LANG=en_US.utf-8
 
 bindkey -e
