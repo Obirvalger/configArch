@@ -140,6 +140,7 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias perldoc='perldoc -M Pod::Perldoc::ToMan'
 alias googler='googler -n 7'
 alias vims='gear-edit-spec'
 alias gti='git'
