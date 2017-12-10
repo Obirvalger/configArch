@@ -177,9 +177,9 @@ export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;34m'
 export LESS_TERMCAP_me=$'\E[0m'
 export LESS_TERMCAP_se=$'\E[0m'
-export LESS_TERMCAP_so=$'\E[01;33;40m'
+export LESS_TERMCAP_so=$'\E[01;02;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
-export LESS_TERMCAP_us=$'\E[01;04;35m'
+export LESS_TERMCAP_us=$'\E[01;00;36m'
 
 sjo () {
     [ $1 ] && c="tmux a -t $1" || c=
@@ -206,18 +206,6 @@ sjb () {
 mgrep () {
     egrep $1 ./* -Ri
 }
-
-man () {
-    env LESS_TERMCAP_mb=$'\E[01;31m' \
-    LESS_TERMCAP_md=$'\E[01;34m' \
-    LESS_TERMCAP_me=$'\E[0m' \
-    LESS_TERMCAP_se=$'\E[0m' \
-    LESS_TERMCAP_so=$'\E[01;33;40m' \
-    LESS_TERMCAP_ue=$'\E[0m' \
-    LESS_TERMCAP_us=$'\E[01;04;35m' \
-    man "$@"
-}
-
 
 ex () {
  if [ -f $1 ] ; then
