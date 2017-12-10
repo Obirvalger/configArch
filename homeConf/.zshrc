@@ -6,7 +6,7 @@ if ([ -f ~/.zshrc.local ]) {
     source ~/.zshrc.local
 }
 
-export LANG=en_US.utf-8
+export LANG=C.UTF-8
 
 bindkey -e
 
