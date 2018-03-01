@@ -382,5 +382,6 @@ if [[ -d ~/tmp && ${build_hosts[(r)$HOSTNAME]} ]]
     then mkdir ~/tmp/hasher
     if [ ! -e ~/hasher ]; then
         ln -s tmp/hasher ~/hasher
+        ln -s ~/repo ~/hasher/
     fi
 fi
