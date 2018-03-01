@@ -9,6 +9,8 @@ call plug#begin('~/.vim/plugged')
 
 " Plug 'WolfgangMehner/vim-plugins'
 Plug 'Valloric/YouCompleteMe'
+Plug 'plasticboy/vim-markdown'
+Plug 'rhysd/vim-crystal'
 " Plug 'Scrooloose/nerdcommenter'
 Plug 'tpope/vim-unimpaired'
 Plug 'Othree/eregex.vim'
@@ -30,6 +32,8 @@ au BufWrite * match ErrorMsg /\s\+$/
 au BufRead * match ErrorMsg /\s\+$/
 nnoremap <Leader>rtw :%s/\s\+$//e<CR>
 " nnoremap <Leader>ratw :%s/\s\+$//e<CR>
+
+let g:vim_markdown_folding_disabled = 1
 
 let g:NERDSpaceDelims = 1
 
@@ -170,6 +174,7 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 
 autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd Filetype crystal setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype make setlocal noexpandtab
 autocmd BufRead *.recipe setlocal ft=sh | setlocal noexpandtab
 autocmd VimLeave * set t_ve&
