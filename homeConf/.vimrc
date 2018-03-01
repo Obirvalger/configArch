@@ -57,7 +57,62 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+function! TogglePagerMode()
+    if exists("s:pager_mode")
+        unmap <Left>
+        unmap <Right>
+        unmap <Up>
+        unmap <Down>
+        unmap h
+        unmap l
+        unmap k
+        unmap j
+        unmap b
+        unmap f
+        unmap b
+        unmap f
+        unmap q
+        unmap <space>
+        set t_ve&
+        set matchpairs&
+        set number
+        set showtabline=2
+        set ruler
+        set readonly&
+        set nomodifiable&
+        set showcmd
+        set colorcolumn=80
+        unlet s:pager_mode
+    else
+        nnoremap <Left> zh
+        nnoremap <Right> zl
+        nnoremap <Up> <C-y>
+        nnoremap <Down> <C-e>
+        nnoremap h zh
+        nnoremap l zl
+        nnoremap k <C-y>
+        nnoremap j <C-e>
+        nnoremap b <C-B>
+        nnoremap f <C-F>
+        nnoremap u <C-U>
+        nnoremap d <C-D>
+        nnoremap q :q! <CR>
+        nnoremap <space> <C-F>
+        set t_ve=
+        set matchpairs=
+        set nonumber
+        set showtabline=1
+        set noruler
+        set readonly
+        set nomodifiable
+        set noshowcmd
+        set colorcolumn=
+        let s:pager_mode = 1
+    endif
+endfunction
+
 iabbrev #i #include
+set linebreak
 set guifont=Liberation\ Mono\ 18
 set virtualedit=block,onemore
 " set foldmethod=syntax
@@ -117,6 +172,7 @@ autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype make setlocal noexpandtab
 autocmd BufRead *.recipe setlocal ft=sh | setlocal noexpandtab
+autocmd VimLeave * set t_ve&
 
 
 set clipboard+=unnamedplus

@@ -181,6 +181,15 @@ export LESS_TERMCAP_so=$'\E[01;02;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;00;36m'
 
+vimp () {
+    local TOGGLE_MOD_OPTION="-c call TogglePagerMode()"
+    if [ $# = 0 ]; then
+        vim $TOGGLE_MOD_OPTION -
+    else
+        vim $TOGGLE_MOD_OPTION $1
+    fi
+}
+
 sjo () {
     [ $1 ] && c="tmux a -t $1" || c=
     b=balt
