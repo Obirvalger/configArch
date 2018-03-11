@@ -184,6 +184,7 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;02;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;00;36m'
+export GROFF_NO_SGR=1 # For gnome-terminal and konsole in fedora and opensuse
 
 vimp () {
     local TOGGLE_MOD_OPTION="-c call TogglePagerMode()"
