@@ -174,7 +174,7 @@ alias pltags='/usr/share/vim/vim80/tools/pltags.pl'
 #alias perl6='rlwrap perl6'
 
 export EDITOR="vim"
-export PYTHONSTARTUP=~/.pythonrc
+[ -s ~/.pythonrc ] && export PYTHONSTARTUP=~/.pythonrc
 
 export LESS=FRSX
 export LESS_TERMCAP_mb=$'\E[01;31m'
@@ -387,6 +387,6 @@ if [[ -d ~/tmp && ${build_hosts[(r)$HOSTNAME]} ]]
     then mkdir ~/tmp/hasher
     if [ ! -e ~/hasher ]; then
         ln -s tmp/hasher ~/hasher
-        ln -s ~/repo ~/hasher/
+        ln -fs ~/repo -T ~/hasher/repo
     fi
 fi
