@@ -405,12 +405,4 @@ yi () {
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-build_hosts=(work port basalt.office.basealt.ru altair.office.basealt.ru)
-if [[ -d ~/tmp && ${build_hosts[(r)$HOSTNAME]} ]]
-    then mkdir ~/tmp/hasher
-    if [ ! -e ~/hasher ]; then
-        ln -s tmp/hasher ~/hasher
-        ln -fs ~/repo -T ~/hasher/repo
-    fi
-fi
 set -B
