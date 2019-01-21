@@ -20,7 +20,9 @@ export ZLE_SPACE_SUFFIX_CHARS=$'|&'
 if [ -z $GOPATH ]; then
     export GOPATH=/usr/share/gocode
 else
-    export GOPATH=$GOPATH:/usr/share/gocode
+    if [ -d "$HOME/go" ]; then
+        export GOPATH="$HOME/go:$GOPATH"
+    fi
 fi
 
 export PATH=$PATH:~/go/bin:~/perl5/bin:~/bin:~/.local/bin:/usr/local/bin:/usr/sbin:/sbin:/usr/share/gocode/bin/
