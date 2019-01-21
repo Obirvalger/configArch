@@ -177,6 +177,7 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 
 autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd Filetype yaml setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype crystal setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype make setlocal noexpandtab
 autocmd Filetype crontab setlocal noexpandtab
