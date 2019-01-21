@@ -42,6 +42,7 @@ zstyle ':completion:*' rehash true
 #antigen use oh-my-zsh
 
 unsetopt correct_all
+setopt histignorespace
 setopt correct
 #setopt cdable_vars
 #setopt autocd
@@ -59,6 +60,7 @@ setopt hist_ignore_space
 
 autoload -U zmv
 autoload -U edit-command-line
+HELPDIR="/usr/share/zsh/$ZSH_VERSION/help/"
 autoload -Uz run-help
 autoload -Uz run-help-git
 autoload -Uz run-help-svn
@@ -118,9 +120,10 @@ alias -g BG='&; sleep 1; exit'
 alias -g C='| wc -l'
 alias -g D='2> /dev/null'
 alias -g G='| grep '
-alias -g GI='|grep -i '
-alias -g GIN='|grep -ni '
-alias -g GN='|grep -n '
+alias -g GI='| grep -i '
+alias -g GIN='| grep -ni '
+alias -g GN='| grep -n '
+alias -g GV='| grep -v '
 alias -g H1='| head -n1'
 alias -g H2='| head -n2'
 alias -g H='| head'
@@ -148,9 +151,10 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias vbm='VBoxManage'
 alias perldoc='perldoc -M Pod::Perldoc::ToMan'
 alias googler='googler -n 7'
-alias vims='gear-edit-spec'
+alias vims='gear-edit-spec -p'
 alias gti='git'
 alias pe='perl -pe'
 alias cp='cp -Lvir'
@@ -394,3 +398,4 @@ if [[ -d ~/tmp && ${build_hosts[(r)$HOSTNAME]} ]]
         ln -fs ~/repo -T ~/hasher/repo
     fi
 fi
+set -B
