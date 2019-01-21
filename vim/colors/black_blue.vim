@@ -21,7 +21,7 @@ hi NonText	term=bold ctermfg=darkgray guibg=black guifg=gray20
 hi SpecialKey	term=bold ctermfg=darkgray guifg=white
 hi LineNr	term=underline ctermfg=darkgray guifg=ivory4 guibg=black
 hi IncSearch	term=reverse cterm=reverse gui=reverse,bold guifg=purple1
-hi Search	term=reverse ctermfg=black ctermbg=yellow guifg=gray10 guibg=purple4
+hi Search	term=reverse ctermfg=black ctermbg=yellow guifg=black guibg=#6B8E23
 hi Visual	term=bold,reverse cterm=bold,reverse ctermfg=gray ctermbg=black gui=bold,reverse guifg=gray40 guibg=black
 hi VisualNOS	term=bold,underline cterm=bold,underline gui=bold,underline
 hi MoreMsg	term=bold ctermfg=green gui=bold guifg=olivedrab1
