@@ -221,6 +221,21 @@ sjb () {
     ssh -Att $b $c
 }
 
+sjt () {
+    [ $1 ] && c="tmux a -t $1" || c=
+    b=tilaa
+    ssh -Att $b $c
+}
+
+.proxy () {
+    local port=5555
+    local pid="$(lsof -i :"$port" | awk '/^ssh/{p=$2}END{print p}')"
+    if [ -n "$pid" ]; then
+        kill "$pid"
+    fi
+    ssh -D"$port" -fN tilaa
+}
+
 .ssh () {
     source ~/o.ssh
 }
