@@ -6,6 +6,8 @@ if ([ -f ~/.zshrc.local ]) {
     source ~/.zshrc.local
 }
 
+fpath=(~/.zsh/completion $fpath)
+
 export LANG=C.UTF-8
 
 bindkey -e
