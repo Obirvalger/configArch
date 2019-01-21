@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 " \ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
 " Plug 'WolfgangMehner/vim-plugins'
+Plug 'lepture/vim-jinja'
 Plug 'Valloric/YouCompleteMe'
 Plug 'plasticboy/vim-markdown'
 Plug 'rhysd/vim-crystal'
