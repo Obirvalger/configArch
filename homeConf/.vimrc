@@ -8,12 +8,21 @@ call plug#begin('~/.vim/plugged')
 " \ 'make clean carp dancer highlight-all-pragmas moose test-more try-tiny' }
 
 " Plug 'WolfgangMehner/vim-plugins'
+" Plug 'tpope/vim-sexp-mappings-for-regular-people'
+" Plug 'guns/vim-sexp'
+" Plug 'tpope/vim-repeat'
+" Plug 'tpope/vim-surround'
+" Plug 'jpalardy/vim-slime'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'wlangstroth/vim-racket'
+Plug 'elixir-editors/vim-elixir'
 Plug 'lepture/vim-jinja'
 Plug 'Valloric/YouCompleteMe'
 Plug 'plasticboy/vim-markdown'
 Plug 'rhysd/vim-crystal'
 " Plug 'Scrooloose/nerdcommenter'
-Plug 'tpope/vim-unimpaired'
+" Plug 'tpope/vim-unimpaired'
+Plug 'gabesoft/vim-ags'
 Plug 'Othree/eregex.vim'
 " Plug 'Tpope/vim-rails'
 Plug 'scrooloose/syntastic'
@@ -34,6 +43,22 @@ au BufRead * match ErrorMsg /\s\+$/
 nnoremap <Leader>rtw :%s/\s\+$//e<CR>
 " nnoremap <Leader>ratw :%s/\s\+$//e<CR>
 
+" Allow vim-ags work with tabs
+autocmd FileType agsv nnoremap <buffer> ot
+  \ :exec 'tab split ' . ags#filePath(line('.'))<CR>
+autocmd FileType agsv nnoremap <buffer> tr
+  \ :exec 'tab split ' . ags#filePath(line('.'))<CR>
+autocmd FileType agsv nnoremap <buffer> tl
+  \ :exec '-tab split ' . ags#filePath(line('.'))<CR>
+
+let g:ags_results_per_tab = 0
+let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/.slime_paste"
+" let g:slime_default_config = {"socket_name": get(split($TMUX, ","), 0), "target_pane": ":.1"}
+" let g:slime_default_config = {"socket_name": "default", "target_pane": "1"}
+let g:slime_default_config = {"socket_name": "default", "target_pane": "{bottom}"}
+let g:slime_dont_ask_default = 1
+
 let g:vim_markdown_folding_disabled = 1
 
 let g:NERDSpaceDelims = 1
@@ -50,19 +75,41 @@ let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_disable_signature_help = 1
 
 let g:eregex_default_enable = 0
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
+let g:syntastic_enable_racket_racket_checker = 0
 let g:syntastic_always_populate_loc_list = 1
 " let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_python_exec = '/usr/bin/python3'
 let g:syntastic_python_checkers=['python3']
+let g:syntastic_ignore_files = ['.*\.spec']
+
+let g:rbpt_colorpairs = [
+    \ ['darkgreen',   'PaleVioletRed3'],
+    \ ['brown',       'RosyBrown4'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkcyan',    'RoyalBlue2'],
+    \ ['darkred',     'DarkGoldenrod'],
+    \ ['darkgray',    'DarkSlateGray4'],
+    \ ['darkmagenta', 'DarkMagenta'],
+    \ ['brown',       'SteelBlue'],
+    \ ['darkred',     'DarkOrange4'],
+    \ ['red',         'Tan4'],
+    \ ['white',       'DarkOliveGreen4'],
+    \ ['gray',        'DeepSkyBlue4'],
+    \ ['darkmagenta', 'CadetBlue3'],
+    \ ['darkgreen',   'RoyalBlue4'],
+    \ ['darkcyan',    'SeaGreen4'],
+    \ ['Darkblue',    'firebrick4'],
+    \ ]
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 function! TogglePagerMode()
     if exists("s:pager_mode")
@@ -175,7 +222,13 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
 \ exe "normal! g'\"" | endif
 
 
-autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd Syntax racket RainbowParenthesesToggle
+autocmd Syntax racket RainbowParenthesesLoadSquare
+autocmd Syntax racket hi Error NONE
+autocmd Filetype scheme RainbowParenthesesToggle
+autocmd Filetype scheme RainbowParenthesesLoadSquare
+" autocmd Filetype scheme setlocal tabstop=2 | setlocal shiftwidth=2
+autocmd Filetype ocaml setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype ruby setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype yaml setlocal tabstop=2 | setlocal shiftwidth=2
 autocmd Filetype crystal setlocal tabstop=2 | setlocal shiftwidth=2
