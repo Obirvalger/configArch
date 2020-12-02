@@ -1,6 +1,7 @@
+unset all_proxy; unset ALL_PROXY
 HISTFILE=~/.histfile
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=1000000
+SAVEHIST=1000000
 
 if ([ -f ~/.zshrc.local ]) {
     source ~/.zshrc.local
@@ -127,8 +128,8 @@ alias -g GV='| grep -v '
 alias -g H1='| head -n1'
 alias -g H2='| head -n2'
 alias -g H='| head'
-alias -g H='| head'
-alias -g L='| less'
+alias -g L='|& less'
+alias -g LJ='| jq -C | less'
 alias -g N='| nl -ba'
 alias -g S='| sort'
 alias -g SC='| sort | uniq -c | sort -k1,1n '
@@ -151,6 +152,8 @@ else
 fi
 
 #alias man='man --prompt=""'
+alias osb='openstack --os-cloud basealt'
+alias g2s='github2spec --no-empty-branch'
 alias vbm='VBoxManage'
 alias perldoc='perldoc -M Pod::Perldoc::ToMan'
 alias googler='googler -n 7'
@@ -182,7 +185,7 @@ alias pltags='/usr/share/vim/vim80/tools/pltags.pl'
 #alias perl6='rlwrap perl6'
 
 export EDITOR="vim"
-[ -s ~/.pythonrc ] && export PYTHONSTARTUP=~/.pythonrc
+# [ -s ~/.pythonrc ] && export PYTHONSTARTUP=~/.pythonrc
 
 export LESS=FRSX
 export LESS_TERMCAP_mb=$'\E[01;31m'
@@ -242,6 +245,33 @@ sjt () {
 
 mgrep () {
     egrep $1 ./* -Ri
+}
+
+anypeek () {
+    PEEK_TEMPLATE="$1" # e.g. "tar -xf %s -C %s"
+    FILE="$2"
+    PROG="${3:-$SHELL}"
+
+    WORKDIR="$(mktemp -dt anypeek-XXXXXX)"
+    (
+        $(printf "$PEEK_TEMPLATE" "$FILE" "$WORKDIR") ||:
+        cd "$WORKDIR"
+        "$PROG"
+    )
+    rm -rf "$WORKDIR"
+}
+
+tarpeek () {
+    FILE="$1"
+    PROG="${2:-$SHELL}"
+
+    WORKDIR="$(mktemp -dt tarpeek-XXXXXX)"
+    (
+        tar -xf "$FILE" -C "$WORKDIR" ||:
+        cd "$WORKDIR"
+        "$PROG"
+    )
+    rm -rf "$WORKDIR"
 }
 
 ex () {
@@ -305,6 +335,26 @@ hist () {
     fi
 
     fc -lndD -$n
+}
+
+qm () {
+    IMAGES_DIR=~obirvalger/vms/out
+    IMAGE="${1?Pass image!}"
+    PROG="${2:-$SHELL}"
+    case $IMAGE in
+        # absolute
+        /*) :;;
+        # relative
+        *) IMAGE="$IMAGES_DIR/$IMAGE"
+    esac
+    qemu-nbd --connect=/dev/nbd0 "$IMAGE"
+    mount /dev/nbd0p1 /mnt
+    (
+        cd /mnt
+            $PROG
+    )
+    umount /mnt
+    qemu-nbd --disconnect /dev/nbd0
 }
 
 gp () {
@@ -402,7 +452,14 @@ yi () {
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [ -e ~/hasher ]; then
+    mkdir $TMP/hasher
+fi
+
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
 set -B
+
+# opam configuration
+# test -r /home/obirvalger/.opam/opam-init/init.zsh && . /home/obirvalger/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
